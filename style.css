@@ -1,0 +1,35 @@
+/*
+
+Theme Name: Grand Peaks at Sisters
+Theme URI: http://theme.co/x/
+Author: Halsey Design LLC.
+Author URI: http://halsey-design.com/
+Description: Custom X Child Theme Developed for Grand Peaks at Sisters.
+Version: 1.0.0
+Template: x
+
+*/
+/* line 1, scss/partials/_global.scss */
+#x-widgetbar, #x-btn-widgetbar {
+  display: none !important;
+}
+
+/* line 2, scss/partials/_header-nav.scss */
+body.home .x-logobar, body.home .x-navbar, body.home .x-navbar .sub-menu, body.home .x-colophon.top {
+  background-color: transparent;
+  border-bottom: none;
+}
+/* line 6, scss/partials/_header-nav.scss */
+body.home .hero_container {
+  margin-top: -90px;
+}
+/* line 9, scss/partials/_header-nav.scss */
+body.home .x-navbar .desktop .x-nav > li:first-child > a {
+  border-left: 1px solid rgba(255, 255, 255, 0);
+  color: #ffffff;
+}
+/* line 13, scss/partials/_header-nav.scss */
+body.home .x-navbar .desktop .x-nav > li > a {
+  border-right: 1px solid rgba(255, 255, 255, 0);
+  color: #ffffff;
+}

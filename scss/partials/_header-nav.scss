@@ -1,0 +1,17 @@
+body.home{
+	.x-logobar, .x-navbar, .x-navbar .sub-menu, .x-colophon.top {
+    	background-color: transparent;
+    	border-bottom: none;
+	}
+	.hero_container{
+		margin-top: -90px;
+	}
+	.x-navbar .desktop .x-nav>li:first-child>a {
+	    border-left: 1px solid rgba(255,255,255,0.0);
+	    color:$white;
+	}
+	.x-navbar .desktop .x-nav>li>a {
+	    border-right: 1px solid rgba(255,255,255,0.0);
+	    color:$white;
+	}
+}
