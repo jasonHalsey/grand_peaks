@@ -1,91 +1,3 @@
-/*
-
-Theme Name: Grand Peaks at Sisters
-Theme URI: http://theme.co/x/
-Author: Halsey Design LLC.
-Author URI: http://halsey-design.com/
-Description: Custom X Child Theme Developed for Grand Peaks at Sisters.
-Version: 1.0.0
-Template: x
-
-*/
-/* line 1, scss/partials/_global.scss */
-#x-widgetbar, #x-btn-widgetbar {
-  display: none !important;
-}
-
-/* line 5, scss/partials/_global.scss */
-.cta-content {
-  display: block;
-  padding: 0.25em 1.0em;
-  color: #30231d;
-  border: 1px solid #30231d;
-  font-size: 1.55em;
-}
-/* line 11, scss/partials/_global.scss */
-.cta-content i {
-  margin-left: 0.5em;
-}
-
-/* line 16, scss/partials/_global.scss */
-.gp_light_row {
-  color: #f6f1ed !important;
-}
-/* line 18, scss/partials/_global.scss */
-.gp_light_row h3 {
-  color: #f6f1ed !important;
-  font-size: 3.5em;
-}
-/* line 22, scss/partials/_global.scss */
-.gp_light_row .cta-content {
-  color: #f6f1ed;
-  border: 1px solid #f6f1ed;
-}
-
-/* line 28, scss/partials/_global.scss */
-.gp_dk_row {
-  color: #30231d !important;
-}
-/* line 30, scss/partials/_global.scss */
-.gp_dk_row h3 {
-  font-size: 3.5em;
-}
-
-/* line 34, scss/partials/_global.scss */
-.home_cta_block {
-  display: block;
-  vertical-align: middle !important;
-}
-
-/* line 2, scss/partials/_header-nav.scss */
-body.home .x-logobar, body.home .x-navbar, body.home .x-navbar .sub-menu, body.home .x-colophon.top {
-  background-color: transparent;
-  border-bottom: none;
-}
-/* line 6, scss/partials/_header-nav.scss */
-body.home .hero_container {
-  margin-top: -90px;
-}
-/* line 9, scss/partials/_header-nav.scss */
-body.home .x-navbar .desktop .x-nav > li:first-child > a {
-  border-left: 1px solid rgba(255, 255, 255, 0);
-  color: #ffffff;
-}
-/* line 13, scss/partials/_header-nav.scss */
-body.home .x-navbar .desktop .x-nav > li > a {
-  border-right: 1px solid rgba(255, 255, 255, 0);
-  color: #ffffff;
-}
-/* line 17, scss/partials/_header-nav.scss */
-body.home .startHead {
-  background-color: transparent;
-  transition: background-color 0.5s ease;
-}
-/* line 21, scss/partials/_header-nav.scss */
-body.home .darkHeader {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.3.0
@@ -97,40 +9,34 @@ body.home .darkHeader {
  */
 /* 2D TRANSITIONS */
 /* Grow */
-/* line 12, scss/partials/_hover-effects.scss */
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 23, scss/partials/_hover-effects.scss */
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 /* Shrink */
-/* line 29, scss/partials/_hover-effects.scss */
 .hvr-shrink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 40, scss/partials/_hover-effects.scss */
 .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
@@ -157,16 +63,13 @@ body.home .darkHeader {
     transform: scale(0.9);
   }
 }
-/* line 66, scss/partials/_hover-effects.scss */
 .hvr-pulse {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 73, scss/partials/_hover-effects.scss */
 .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
   -webkit-animation-name: hvr-pulse;
   animation-name: hvr-pulse;
@@ -191,16 +94,13 @@ body.home .darkHeader {
     transform: scale(1.1);
   }
 }
-/* line 97, scss/partials/_hover-effects.scss */
 .hvr-pulse-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 104, scss/partials/_hover-effects.scss */
 .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
@@ -227,16 +127,13 @@ body.home .darkHeader {
     transform: scale(0.9);
   }
 }
-/* line 130, scss/partials/_hover-effects.scss */
 .hvr-pulse-shrink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 137, scss/partials/_hover-effects.scss */
 .hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
   -webkit-animation-name: hvr-pulse-shrink;
   animation-name: hvr-pulse-shrink;
@@ -271,16 +168,13 @@ body.home .darkHeader {
     transform: scale(1);
   }
 }
-/* line 171, scss/partials/_hover-effects.scss */
 .hvr-push {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 178, scss/partials/_hover-effects.scss */
 .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
   -webkit-animation-name: hvr-push;
   animation-name: hvr-push;
@@ -305,16 +199,13 @@ body.home .darkHeader {
     transform: scale(1.2);
   }
 }
-/* line 202, scss/partials/_hover-effects.scss */
 .hvr-pop {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 209, scss/partials/_hover-effects.scss */
 .hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
   -webkit-animation-name: hvr-pop;
   animation-name: hvr-pop;
@@ -327,18 +218,15 @@ body.home .darkHeader {
 }
 
 /* Bounce In */
-/* line 221, scss/partials/_hover-effects.scss */
 .hvr-bounce-in {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
-/* line 230, scss/partials/_hover-effects.scss */
 .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -347,18 +235,15 @@ body.home .darkHeader {
 }
 
 /* Bounce Out */
-/* line 238, scss/partials/_hover-effects.scss */
 .hvr-bounce-out {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
-/* line 247, scss/partials/_hover-effects.scss */
 .hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
@@ -367,53 +252,46 @@ body.home .darkHeader {
 }
 
 /* Rotate */
-/* line 255, scss/partials/_hover-effects.scss */
 .hvr-rotate {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 266, scss/partials/_hover-effects.scss */
 .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
 }
 
 /* Grow Rotate */
-/* line 272, scss/partials/_hover-effects.scss */
 .hvr-grow-rotate {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 283, scss/partials/_hover-effects.scss */
 .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
   -webkit-transform: scale(1.1) rotate(4deg);
   transform: scale(1.1) rotate(4deg);
 }
 
 /* Float */
-/* line 289, scss/partials/_hover-effects.scss */
 .hvr-float {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -421,21 +299,18 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 302, scss/partials/_hover-effects.scss */
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
 
 /* Sink */
-/* line 308, scss/partials/_hover-effects.scss */
 .hvr-sink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -443,8 +318,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 321, scss/partials/_hover-effects.scss */
 .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
@@ -491,16 +364,13 @@ body.home .darkHeader {
     transform: translateY(-8px);
   }
 }
-/* line 367, scss/partials/_hover-effects.scss */
 .hvr-bob {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 374, scss/partials/_hover-effects.scss */
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
@@ -559,16 +429,13 @@ body.home .darkHeader {
     transform: translateY(8px);
   }
 }
-/* line 432, scss/partials/_hover-effects.scss */
 .hvr-hang {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 439, scss/partials/_hover-effects.scss */
 .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
   animation-name: hvr-hang-sink, hvr-hang;
@@ -587,33 +454,29 @@ body.home .darkHeader {
 }
 
 /* Skew */
-/* line 457, scss/partials/_hover-effects.scss */
 .hvr-skew {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 468, scss/partials/_hover-effects.scss */
 .hvr-skew:hover, .hvr-skew:focus, .hvr-skew:active {
   -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
 }
 
 /* Skew Forward */
-/* line 474, scss/partials/_hover-effects.scss */
 .hvr-skew-forward {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -621,21 +484,18 @@ body.home .darkHeader {
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
-
-/* line 487, scss/partials/_hover-effects.scss */
 .hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
   -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
 }
 
 /* Skew Backward */
-/* line 493, scss/partials/_hover-effects.scss */
 .hvr-skew-backward {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
@@ -643,8 +503,6 @@ body.home .darkHeader {
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
-
-/* line 506, scss/partials/_hover-effects.scss */
 .hvr-skew-backward:hover, .hvr-skew-backward:focus, .hvr-skew-backward:active {
   -webkit-transform: skew(10deg);
   transform: skew(10deg);
@@ -703,16 +561,13 @@ body.home .darkHeader {
     transform: translateY(0);
   }
 }
-/* line 564, scss/partials/_hover-effects.scss */
 .hvr-wobble-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 571, scss/partials/_hover-effects.scss */
 .hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
   -webkit-animation-name: hvr-wobble-vertical;
   animation-name: hvr-wobble-vertical;
@@ -777,16 +632,13 @@ body.home .darkHeader {
     transform: translateX(0);
   }
 }
-/* line 635, scss/partials/_hover-effects.scss */
 .hvr-wobble-horizontal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 642, scss/partials/_hover-effects.scss */
 .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
   -webkit-animation-name: hvr-wobble-horizontal;
   animation-name: hvr-wobble-horizontal;
@@ -851,16 +703,13 @@ body.home .darkHeader {
     transform: translate(0, 0);
   }
 }
-/* line 706, scss/partials/_hover-effects.scss */
 .hvr-wobble-to-bottom-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 713, scss/partials/_hover-effects.scss */
 .hvr-wobble-to-bottom-right:hover, .hvr-wobble-to-bottom-right:focus, .hvr-wobble-to-bottom-right:active {
   -webkit-animation-name: hvr-wobble-to-bottom-right;
   animation-name: hvr-wobble-to-bottom-right;
@@ -925,16 +774,13 @@ body.home .darkHeader {
     transform: translate(0, 0);
   }
 }
-/* line 777, scss/partials/_hover-effects.scss */
 .hvr-wobble-to-top-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 784, scss/partials/_hover-effects.scss */
 .hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
   -webkit-animation-name: hvr-wobble-to-top-right;
   animation-name: hvr-wobble-to-top-right;
@@ -999,18 +845,15 @@ body.home .darkHeader {
     transform: skew(0);
   }
 }
-/* line 848, scss/partials/_hover-effects.scss */
 .hvr-wobble-top {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
-
-/* line 857, scss/partials/_hover-effects.scss */
 .hvr-wobble-top:hover, .hvr-wobble-top:focus, .hvr-wobble-top:active {
   -webkit-animation-name: hvr-wobble-top;
   animation-name: hvr-wobble-top;
@@ -1075,18 +918,15 @@ body.home .darkHeader {
     transform: skew(0);
   }
 }
-/* line 921, scss/partials/_hover-effects.scss */
 .hvr-wobble-bottom {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0;
 }
-
-/* line 930, scss/partials/_hover-effects.scss */
 .hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
   -webkit-animation-name: hvr-wobble-bottom;
   animation-name: hvr-wobble-bottom;
@@ -1151,16 +991,13 @@ body.home .darkHeader {
     transform: skew(0);
   }
 }
-/* line 994, scss/partials/_hover-effects.scss */
 .hvr-wobble-skew {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 1001, scss/partials/_hover-effects.scss */
 .hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
   -webkit-animation-name: hvr-wobble-skew;
   animation-name: hvr-wobble-skew;
@@ -1193,16 +1030,13 @@ body.home .darkHeader {
     transform: translateX(-3px) rotate(-2deg);
   }
 }
-/* line 1033, scss/partials/_hover-effects.scss */
 .hvr-buzz {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 1040, scss/partials/_hover-effects.scss */
 .hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
   -webkit-animation-name: hvr-buzz;
   animation-name: hvr-buzz;
@@ -1299,16 +1133,13 @@ body.home .darkHeader {
     transform: translateX(-1px) rotate(0);
   }
 }
-/* line 1136, scss/partials/_hover-effects.scss */
 .hvr-buzz-out {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 1143, scss/partials/_hover-effects.scss */
 .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
   -webkit-animation-name: hvr-buzz-out;
   animation-name: hvr-buzz-out;
@@ -1321,40 +1152,34 @@ body.home .darkHeader {
 }
 
 /* Forward */
-/* line 1155, scss/partials/_hover-effects.scss */
 .hvr-forward {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 1166, scss/partials/_hover-effects.scss */
 .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
   -webkit-transform: translateX(8px);
   transform: translateX(8px);
 }
 
 /* Backward */
-/* line 1172, scss/partials/_hover-effects.scss */
 .hvr-backward {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 1183, scss/partials/_hover-effects.scss */
 .hvr-backward:hover, .hvr-backward:focus, .hvr-backward:active {
   -webkit-transform: translateX(-8px);
   transform: translateX(-8px);
@@ -1362,21 +1187,18 @@ body.home .darkHeader {
 
 /* BACKGROUND TRANSITIONS */
 /* Fade */
-/* line 1190, scss/partials/_hover-effects.scss */
 .hvr-fade {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   overflow: hidden;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-
-/* line 1202, scss/partials/_hover-effects.scss */
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #2098D1;
   color: white;
@@ -1393,21 +1215,18 @@ body.home .darkHeader {
     background-color: rgba(32, 152, 209, 0.75);
   }
 }
-/* line 1218, scss/partials/_hover-effects.scss */
 .hvr-back-pulse {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   overflow: hidden;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-
-/* line 1230, scss/partials/_hover-effects.scss */
 .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
   -webkit-animation-name: hvr-back-pulse;
   animation-name: hvr-back-pulse;
@@ -1425,21 +1244,18 @@ body.home .darkHeader {
 }
 
 /* Sweep To Right */
-/* line 1247, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1259, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-right:before {
   content: "";
   position: absolute;
@@ -1460,34 +1276,27 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1279, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
   color: white;
 }
-
-/* line 1282, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 /* Sweep To Left */
-/* line 1288, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1300, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-left:before {
   content: "";
   position: absolute;
@@ -1508,34 +1317,27 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1320, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
   color: white;
 }
-
-/* line 1323, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 /* Sweep To Bottom */
-/* line 1329, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-bottom {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1341, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-bottom:before {
   content: "";
   position: absolute;
@@ -1556,34 +1358,27 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1361, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
   color: white;
 }
-
-/* line 1364, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
 
 /* Sweep To Top */
-/* line 1370, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-top {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1382, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-top:before {
   content: "";
   position: absolute;
@@ -1604,34 +1399,27 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1402, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
   color: white;
 }
-
-/* line 1405, scss/partials/_hover-effects.scss */
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
 
 /* Bounce To Right */
-/* line 1411, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
-/* line 1423, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-right:before {
   content: "";
   position: absolute;
@@ -1652,13 +1440,9 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1443, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
   color: white;
 }
-
-/* line 1446, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -1667,21 +1451,18 @@ body.home .darkHeader {
 }
 
 /* Bounce To Left */
-/* line 1454, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
-/* line 1466, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-left:before {
   content: "";
   position: absolute;
@@ -1702,13 +1483,9 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1486, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
   color: white;
 }
-
-/* line 1489, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -1717,21 +1494,18 @@ body.home .darkHeader {
 }
 
 /* Bounce To Bottom */
-/* line 1497, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-bottom {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
-/* line 1509, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-bottom:before {
   content: "";
   position: absolute;
@@ -1752,13 +1526,9 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1529, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
   color: white;
 }
-
-/* line 1532, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -1767,21 +1537,18 @@ body.home .darkHeader {
 }
 
 /* Bounce To Top */
-/* line 1540, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-top {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-
-/* line 1552, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-top:before {
   content: "";
   position: absolute;
@@ -1802,13 +1569,9 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1572, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
   color: white;
 }
-
-/* line 1575, scss/partials/_hover-effects.scss */
 .hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -1817,13 +1580,12 @@ body.home .darkHeader {
 }
 
 /* Radial Out */
-/* line 1583, scss/partials/_hover-effects.scss */
 .hvr-radial-out {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
   background: #e1e1e1;
@@ -1832,8 +1594,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1597, scss/partials/_hover-effects.scss */
 .hvr-radial-out:before {
   content: "";
   position: absolute;
@@ -1853,26 +1613,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1616, scss/partials/_hover-effects.scss */
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
   color: white;
 }
-
-/* line 1619, scss/partials/_hover-effects.scss */
 .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
   -webkit-transform: scale(2);
   transform: scale(2);
 }
 
 /* Radial In */
-/* line 1625, scss/partials/_hover-effects.scss */
 .hvr-radial-in {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
   background: #2098D1;
@@ -1881,8 +1636,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1639, scss/partials/_hover-effects.scss */
 .hvr-radial-in:before {
   content: "";
   position: absolute;
@@ -1902,26 +1655,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1658, scss/partials/_hover-effects.scss */
 .hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {
   color: white;
 }
-
-/* line 1661, scss/partials/_hover-effects.scss */
 .hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
 }
 
 /* Rectangle In */
-/* line 1667, scss/partials/_hover-effects.scss */
 .hvr-rectangle-in {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #2098D1;
   -webkit-transition-property: color;
@@ -1929,8 +1677,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1680, scss/partials/_hover-effects.scss */
 .hvr-rectangle-in:before {
   content: "";
   position: absolute;
@@ -1949,26 +1695,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1698, scss/partials/_hover-effects.scss */
 .hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
   color: white;
 }
-
-/* line 1701, scss/partials/_hover-effects.scss */
 .hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
 }
 
 /* Rectangle Out */
-/* line 1707, scss/partials/_hover-effects.scss */
 .hvr-rectangle-out {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
@@ -1976,8 +1717,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1720, scss/partials/_hover-effects.scss */
 .hvr-rectangle-out:before {
   content: "";
   position: absolute;
@@ -1996,26 +1735,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1738, scss/partials/_hover-effects.scss */
 .hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
   color: white;
 }
-
-/* line 1741, scss/partials/_hover-effects.scss */
 .hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
 /* Shutter In Horizontal */
-/* line 1747, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-horizontal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #2098D1;
   -webkit-transition-property: color;
@@ -2023,8 +1757,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1760, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-horizontal:before {
   content: "";
   position: absolute;
@@ -2045,26 +1777,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1780, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
   color: white;
 }
-
-/* line 1783, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
 
 /* Shutter Out Horizontal */
-/* line 1789, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-horizontal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
@@ -2072,8 +1799,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1802, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-horizontal:before {
   content: "";
   position: absolute;
@@ -2094,26 +1819,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1822, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
   color: white;
 }
-
-/* line 1825, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 /* Shutter In Vertical */
-/* line 1831, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #2098D1;
   -webkit-transition-property: color;
@@ -2121,8 +1841,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1844, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-vertical:before {
   content: "";
   position: absolute;
@@ -2143,26 +1861,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1864, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {
   color: white;
 }
-
-/* line 1867, scss/partials/_hover-effects.scss */
 .hvr-shutter-in-vertical:hover:before, .hvr-shutter-in-vertical:focus:before, .hvr-shutter-in-vertical:active:before {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
 
 /* Shutter Out Vertical */
-/* line 1873, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
@@ -2170,8 +1883,6 @@ body.home .darkHeader {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 1886, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-vertical:before {
   content: "";
   position: absolute;
@@ -2192,13 +1903,9 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 1906, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
   color: white;
 }
-
-/* line 1909, scss/partials/_hover-effects.scss */
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -2206,60 +1913,51 @@ body.home .darkHeader {
 
 /* BORDER TRANSITIONS */
 /* Border Fade */
-/* line 1916, scss/partials/_hover-effects.scss */
 .hvr-border-fade {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */
 }
-
-/* line 1929, scss/partials/_hover-effects.scss */
 .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-  box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px transparent;
+  box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 
 /* Hollow */
-/* line 1935, scss/partials/_hover-effects.scss */
 .hvr-hollow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: background;
   transition-property: background;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */
 }
-
-/* line 1948, scss/partials/_hover-effects.scss */
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
   background: none;
 }
 
 /* Trim */
-/* line 1953, scss/partials/_hover-effects.scss */
 .hvr-trim {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 1961, scss/partials/_hover-effects.scss */
 .hvr-trim:before {
   content: '';
   position: absolute;
@@ -2274,8 +1972,6 @@ body.home .darkHeader {
   -webkit-transition-property: opacity;
   transition-property: opacity;
 }
-
-/* line 1975, scss/partials/_hover-effects.scss */
 .hvr-trim:hover:before, .hvr-trim:focus:before, .hvr-trim:active:before {
   opacity: 1;
 }
@@ -2299,17 +1995,14 @@ body.home .darkHeader {
     opacity: 0;
   }
 }
-/* line 1998, scss/partials/_hover-effects.scss */
 .hvr-ripple-out {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2006, scss/partials/_hover-effects.scss */
 .hvr-ripple-out:before {
   content: '';
   position: absolute;
@@ -2321,8 +2014,6 @@ body.home .darkHeader {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
-
-/* line 2017, scss/partials/_hover-effects.scss */
 .hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
   -webkit-animation-name: hvr-ripple-out;
   animation-name: hvr-ripple-out;
@@ -2347,17 +2038,14 @@ body.home .darkHeader {
     opacity: 1;
   }
 }
-/* line 2041, scss/partials/_hover-effects.scss */
 .hvr-ripple-in {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2049, scss/partials/_hover-effects.scss */
 .hvr-ripple-in:before {
   content: '';
   position: absolute;
@@ -2370,25 +2058,20 @@ body.home .darkHeader {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
-
-/* line 2061, scss/partials/_hover-effects.scss */
 .hvr-ripple-in:hover:before, .hvr-ripple-in:focus:before, .hvr-ripple-in:active:before {
   -webkit-animation-name: hvr-ripple-in;
   animation-name: hvr-ripple-in;
 }
 
 /* Outline Out */
-/* line 2067, scss/partials/_hover-effects.scss */
 .hvr-outline-out {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2075, scss/partials/_hover-effects.scss */
 .hvr-outline-out:before {
   content: '';
   position: absolute;
@@ -2402,8 +2085,6 @@ body.home .darkHeader {
   -webkit-transition-property: top, right, bottom, left;
   transition-property: top, right, bottom, left;
 }
-
-/* line 2088, scss/partials/_hover-effects.scss */
 .hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
   top: -8px;
   right: -8px;
@@ -2412,17 +2093,14 @@ body.home .darkHeader {
 }
 
 /* Outline In */
-/* line 2096, scss/partials/_hover-effects.scss */
 .hvr-outline-in {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2104, scss/partials/_hover-effects.scss */
 .hvr-outline-in:before {
   pointer-events: none;
   content: '';
@@ -2438,8 +2116,6 @@ body.home .darkHeader {
   -webkit-transition-property: top, right, bottom, left;
   transition-property: top, right, bottom, left;
 }
-
-/* line 2119, scss/partials/_hover-effects.scss */
 .hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
   top: -8px;
   right: -8px;
@@ -2449,37 +2125,31 @@ body.home .darkHeader {
 }
 
 /* Round Corners */
-/* line 2128, scss/partials/_hover-effects.scss */
 .hvr-round-corners {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: border-radius;
   transition-property: border-radius;
 }
-
-/* line 2139, scss/partials/_hover-effects.scss */
 .hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
   border-radius: 1em;
 }
 
 /* Underline From Left */
-/* line 2144, scss/partials/_hover-effects.scss */
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2153, scss/partials/_hover-effects.scss */
 .hvr-underline-from-left:before {
   content: "";
   position: absolute;
@@ -2496,25 +2166,20 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2169, scss/partials/_hover-effects.scss */
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
 }
 
 /* Underline From Center */
-/* line 2174, scss/partials/_hover-effects.scss */
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2183, scss/partials/_hover-effects.scss */
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -2531,26 +2196,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2199, scss/partials/_hover-effects.scss */
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
 }
 
 /* Underline From Right */
-/* line 2205, scss/partials/_hover-effects.scss */
 .hvr-underline-from-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2214, scss/partials/_hover-effects.scss */
 .hvr-underline-from-right:before {
   content: "";
   position: absolute;
@@ -2567,25 +2227,20 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2230, scss/partials/_hover-effects.scss */
 .hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
   left: 0;
 }
 
 /* Overline From Left */
-/* line 2235, scss/partials/_hover-effects.scss */
 .hvr-overline-from-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2244, scss/partials/_hover-effects.scss */
 .hvr-overline-from-left:before {
   content: "";
   position: absolute;
@@ -2602,25 +2257,20 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2260, scss/partials/_hover-effects.scss */
 .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
   right: 0;
 }
 
 /* Overline From Center */
-/* line 2265, scss/partials/_hover-effects.scss */
 .hvr-overline-from-center {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2274, scss/partials/_hover-effects.scss */
 .hvr-overline-from-center:before {
   content: "";
   position: absolute;
@@ -2637,26 +2287,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2290, scss/partials/_hover-effects.scss */
 .hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
   left: 0;
   right: 0;
 }
 
 /* Overline From Right */
-/* line 2296, scss/partials/_hover-effects.scss */
 .hvr-overline-from-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2305, scss/partials/_hover-effects.scss */
 .hvr-overline-from-right:before {
   content: "";
   position: absolute;
@@ -2673,25 +2318,20 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2321, scss/partials/_hover-effects.scss */
 .hvr-overline-from-right:hover:before, .hvr-overline-from-right:focus:before, .hvr-overline-from-right:active:before {
   left: 0;
 }
 
 /* Reveal */
-/* line 2326, scss/partials/_hover-effects.scss */
 .hvr-reveal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2335, scss/partials/_hover-effects.scss */
 .hvr-reveal:before {
   content: "";
   position: absolute;
@@ -2710,8 +2350,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2353, scss/partials/_hover-effects.scss */
 .hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -2719,18 +2357,15 @@ body.home .darkHeader {
 }
 
 /* Underline Reveal */
-/* line 2360, scss/partials/_hover-effects.scss */
 .hvr-underline-reveal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2369, scss/partials/_hover-effects.scss */
 .hvr-underline-reveal:before {
   content: "";
   position: absolute;
@@ -2749,26 +2384,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2387, scss/partials/_hover-effects.scss */
 .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
 /* Overline Reveal */
-/* line 2393, scss/partials/_hover-effects.scss */
 .hvr-overline-reveal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
-
-/* line 2402, scss/partials/_hover-effects.scss */
 .hvr-overline-reveal:before {
   content: "";
   position: absolute;
@@ -2787,8 +2417,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2420, scss/partials/_hover-effects.scss */
 .hvr-overline-reveal:hover:before, .hvr-overline-reveal:focus:before, .hvr-overline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -2796,58 +2424,49 @@ body.home .darkHeader {
 
 /* SHADOW/GLOW TRANSITIONS */
 /* Glow */
-/* line 2427, scss/partials/_hover-effects.scss */
 .hvr-glow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-
-/* line 2438, scss/partials/_hover-effects.scss */
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Shadow */
-/* line 2443, scss/partials/_hover-effects.scss */
 .hvr-shadow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-
-/* line 2454, scss/partials/_hover-effects.scss */
 .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
 /* Grow Shadow */
-/* line 2459, scss/partials/_hover-effects.scss */
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
-
-/* line 2470, scss/partials/_hover-effects.scss */
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
@@ -2855,62 +2474,53 @@ body.home .darkHeader {
 }
 
 /* Box Shadow Outset */
-/* line 2477, scss/partials/_hover-effects.scss */
 .hvr-box-shadow-outset {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-
-/* line 2488, scss/partials/_hover-effects.scss */
 .hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 /* Box Shadow Inset */
-/* line 2493, scss/partials/_hover-effects.scss */
 .hvr-box-shadow-inset {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px transparent;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */
 }
-
-/* line 2506, scss/partials/_hover-effects.scss */
 .hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {
-  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px transparent;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 
 /* Float Shadow */
-/* line 2512, scss/partials/_hover-effects.scss */
 .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2524, scss/partials/_hover-effects.scss */
 .hvr-float-shadow:before {
   pointer-events: none;
   position: absolute;
@@ -2921,7 +2531,7 @@ body.home .darkHeader {
   height: 10px;
   width: 90%;
   opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   /* W3C */
   -webkit-transition-duration: 0.3s;
@@ -2929,15 +2539,11 @@ body.home .darkHeader {
   -webkit-transition-property: transform, opacity;
   transition-property: transform, opacity;
 }
-
-/* line 2542, scss/partials/_hover-effects.scss */
 .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   /* move the element up by 5px */
 }
-
-/* line 2547, scss/partials/_hover-effects.scss */
 .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
@@ -2946,17 +2552,14 @@ body.home .darkHeader {
 }
 
 /* Shadow Radial */
-/* line 2555, scss/partials/_hover-effects.scss */
 .hvr-shadow-radial {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2563, scss/partials/_hover-effects.scss */
 .hvr-shadow-radial:before, .hvr-shadow-radial:after {
   pointer-events: none;
   position: absolute;
@@ -2972,39 +2575,30 @@ body.home .darkHeader {
   -webkit-transition-property: opacity;
   transition-property: opacity;
 }
-
-/* line 2578, scss/partials/_hover-effects.scss */
 .hvr-shadow-radial:before {
   bottom: 100%;
-  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
+  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
-
-/* line 2583, scss/partials/_hover-effects.scss */
 .hvr-shadow-radial:after {
   top: 100%;
-  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
+  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
-
-/* line 2588, scss/partials/_hover-effects.scss */
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1;
 }
 
 /* SPEECH BUBBLES */
 /* Bubble Top */
-/* line 2594, scss/partials/_hover-effects.scss */
 .hvr-bubble-top {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2602, scss/partials/_hover-effects.scss */
 .hvr-bubble-top:before {
   pointer-events: none;
   position: absolute;
@@ -3020,25 +2614,20 @@ body.home .darkHeader {
   border-width: 0 10px 10px 10px;
   border-color: transparent transparent #e1e1e1 transparent;
 }
-
-/* line 2617, scss/partials/_hover-effects.scss */
 .hvr-bubble-top:hover:before, .hvr-bubble-top:focus:before, .hvr-bubble-top:active:before {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
 
 /* Bubble Right */
-/* line 2623, scss/partials/_hover-effects.scss */
 .hvr-bubble-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2631, scss/partials/_hover-effects.scss */
 .hvr-bubble-right:before {
   pointer-events: none;
   position: absolute;
@@ -3054,25 +2643,20 @@ body.home .darkHeader {
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #e1e1e1;
 }
-
-/* line 2646, scss/partials/_hover-effects.scss */
 .hvr-bubble-right:hover:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:active:before {
   -webkit-transform: translateX(10px);
   transform: translateX(10px);
 }
 
 /* Bubble Bottom */
-/* line 2652, scss/partials/_hover-effects.scss */
 .hvr-bubble-bottom {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2660, scss/partials/_hover-effects.scss */
 .hvr-bubble-bottom:before {
   pointer-events: none;
   position: absolute;
@@ -3088,25 +2672,20 @@ body.home .darkHeader {
   border-width: 10px 10px 0 10px;
   border-color: #e1e1e1 transparent transparent transparent;
 }
-
-/* line 2675, scss/partials/_hover-effects.scss */
 .hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
 }
 
 /* Bubble Left */
-/* line 2681, scss/partials/_hover-effects.scss */
 .hvr-bubble-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 2689, scss/partials/_hover-effects.scss */
 .hvr-bubble-left:before {
   pointer-events: none;
   position: absolute;
@@ -3122,29 +2701,24 @@ body.home .darkHeader {
   border-width: 10px 10px 10px 0;
   border-color: transparent #e1e1e1 transparent transparent;
 }
-
-/* line 2704, scss/partials/_hover-effects.scss */
 .hvr-bubble-left:hover:before, .hvr-bubble-left:focus:before, .hvr-bubble-left:active:before {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px);
 }
 
 /* Bubble Float Top */
-/* line 2710, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-top {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2722, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-top:before {
   position: absolute;
   z-index: -1;
@@ -3159,35 +2733,28 @@ body.home .darkHeader {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2736, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-top:hover, .hvr-bubble-float-top:focus, .hvr-bubble-float-top:active {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
 }
-
-/* line 2740, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-top:hover:before, .hvr-bubble-float-top:focus:before, .hvr-bubble-float-top:active:before {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
 
 /* Bubble Float Right */
-/* line 2746, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2758, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-right:before {
   position: absolute;
   z-index: -1;
@@ -3202,35 +2769,28 @@ body.home .darkHeader {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2772, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-right:hover, .hvr-bubble-float-right:focus, .hvr-bubble-float-right:active {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px);
 }
-
-/* line 2776, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-right:hover:before, .hvr-bubble-float-right:focus:before, .hvr-bubble-float-right:active:before {
   -webkit-transform: translateX(10px);
   transform: translateX(10px);
 }
 
 /* Bubble Float Bottom */
-/* line 2782, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-bottom {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2794, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-bottom:before {
   position: absolute;
   z-index: -1;
@@ -3245,35 +2805,28 @@ body.home .darkHeader {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2808, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-bottom:hover, .hvr-bubble-float-bottom:focus, .hvr-bubble-float-bottom:active {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
-
-/* line 2812, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-bottom:hover:before, .hvr-bubble-float-bottom:focus:before, .hvr-bubble-float-bottom:active:before {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
 }
 
 /* Bubble Float Left */
-/* line 2818, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2830, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-left:before {
   position: absolute;
   z-index: -1;
@@ -3288,14 +2841,10 @@ body.home .darkHeader {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-
-/* line 2844, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-left:hover, .hvr-bubble-float-left:focus, .hvr-bubble-float-left:active {
   -webkit-transform: translateX(10px);
   transform: translateX(10px);
 }
-
-/* line 2848, scss/partials/_hover-effects.scss */
 .hvr-bubble-float-left:hover:before, .hvr-bubble-float-left:focus:before, .hvr-bubble-float-left:active:before {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px);
@@ -3303,18 +2852,15 @@ body.home .darkHeader {
 
 /* ICONS */
 /* Icon Back */
-/* line 2855, scss/partials/_hover-effects.scss */
 .hvr-icon-back {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
-
-/* line 2864, scss/partials/_hover-effects.scss */
 .hvr-icon-back .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3325,26 +2871,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2874, scss/partials/_hover-effects.scss */
 .hvr-icon-back:hover .hvr-icon, .hvr-icon-back:focus .hvr-icon, .hvr-icon-back:active .hvr-icon {
   -webkit-transform: translateX(-4px);
   transform: translateX(-4px);
 }
 
 /* Icon Forward */
-/* line 2880, scss/partials/_hover-effects.scss */
 .hvr-icon-forward {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
-
-/* line 2889, scss/partials/_hover-effects.scss */
 .hvr-icon-forward .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3355,8 +2896,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 2899, scss/partials/_hover-effects.scss */
 .hvr-icon-forward:hover .hvr-icon, .hvr-icon-forward:focus .hvr-icon, .hvr-icon-forward:active .hvr-icon {
   -webkit-transform: translateX(4px);
   transform: translateX(4px);
@@ -3390,22 +2929,17 @@ body.home .darkHeader {
   }
 }
 /* Icon Down */
-/* line 2932, scss/partials/_hover-effects.scss */
 .hvr-icon-down {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 2939, scss/partials/_hover-effects.scss */
 .hvr-icon-down .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 2943, scss/partials/_hover-effects.scss */
 .hvr-icon-down:hover .hvr-icon, .hvr-icon-down:focus .hvr-icon, .hvr-icon-down:active .hvr-icon {
   -webkit-animation-name: hvr-icon-down;
   animation-name: hvr-icon-down;
@@ -3443,22 +2977,17 @@ body.home .darkHeader {
   }
 }
 /* Icon Up */
-/* line 2980, scss/partials/_hover-effects.scss */
 .hvr-icon-up {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 2987, scss/partials/_hover-effects.scss */
 .hvr-icon-up .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 2991, scss/partials/_hover-effects.scss */
 .hvr-icon-up:hover .hvr-icon, .hvr-icon-up:focus .hvr-icon, .hvr-icon-up:active .hvr-icon {
   -webkit-animation-name: hvr-icon-up;
   animation-name: hvr-icon-up;
@@ -3469,16 +2998,13 @@ body.home .darkHeader {
 }
 
 /* Icon Spin */
-/* line 3001, scss/partials/_hover-effects.scss */
 .hvr-icon-spin {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3008, scss/partials/_hover-effects.scss */
 .hvr-icon-spin .hvr-icon {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
@@ -3487,8 +3013,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-
-/* line 3016, scss/partials/_hover-effects.scss */
 .hvr-icon-spin:hover .hvr-icon, .hvr-icon-spin:focus .hvr-icon, .hvr-icon-spin:active .hvr-icon {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -3524,22 +3048,17 @@ body.home .darkHeader {
   }
 }
 /* Icon Drop */
-/* line 3051, scss/partials/_hover-effects.scss */
 .hvr-icon-drop {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3058, scss/partials/_hover-effects.scss */
 .hvr-icon-drop .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 3062, scss/partials/_hover-effects.scss */
 .hvr-icon-drop:hover .hvr-icon, .hvr-icon-drop:focus .hvr-icon, .hvr-icon-drop:active .hvr-icon {
   opacity: 0;
   -webkit-transition-duration: 0.3s;
@@ -3559,16 +3078,13 @@ body.home .darkHeader {
 }
 
 /* Icon Fade */
-/* line 3081, scss/partials/_hover-effects.scss */
 .hvr-icon-fade {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3088, scss/partials/_hover-effects.scss */
 .hvr-icon-fade .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3577,8 +3093,6 @@ body.home .darkHeader {
   -webkit-transition-property: color;
   transition-property: color;
 }
-
-/* line 3096, scss/partials/_hover-effects.scss */
 .hvr-icon-fade:hover .hvr-icon, .hvr-icon-fade:focus .hvr-icon, .hvr-icon-fade:active .hvr-icon {
   color: #0F9E5E;
 }
@@ -3605,16 +3119,13 @@ body.home .darkHeader {
   }
 }
 /* Icon Float Away */
-/* line 3122, scss/partials/_hover-effects.scss */
 .hvr-icon-float-away {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3129, scss/partials/_hover-effects.scss */
 .hvr-icon-float-away .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3623,8 +3134,6 @@ body.home .darkHeader {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-/* line 3137, scss/partials/_hover-effects.scss */
 .hvr-icon-float-away:hover .hvr-icon, .hvr-icon-float-away:focus .hvr-icon, .hvr-icon-float-away:active .hvr-icon {
   -webkit-animation-name: hvr-icon-float-away;
   animation-name: hvr-icon-float-away;
@@ -3654,16 +3163,13 @@ body.home .darkHeader {
   }
 }
 /* Icon Sink Away */
-/* line 3166, scss/partials/_hover-effects.scss */
 .hvr-icon-sink-away {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3173, scss/partials/_hover-effects.scss */
 .hvr-icon-sink-away .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3672,8 +3178,6 @@ body.home .darkHeader {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-/* line 3181, scss/partials/_hover-effects.scss */
 .hvr-icon-sink-away:hover .hvr-icon, .hvr-icon-sink-away:focus .hvr-icon, .hvr-icon-sink-away:active .hvr-icon {
   -webkit-animation-name: hvr-icon-sink-away;
   animation-name: hvr-icon-sink-away;
@@ -3682,18 +3186,15 @@ body.home .darkHeader {
 }
 
 /* Icon Grow */
-/* line 3189, scss/partials/_hover-effects.scss */
 .hvr-icon-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3198, scss/partials/_hover-effects.scss */
 .hvr-icon-grow .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3704,26 +3205,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3208, scss/partials/_hover-effects.scss */
 .hvr-icon-grow:hover .hvr-icon, .hvr-icon-grow:focus .hvr-icon, .hvr-icon-grow:active .hvr-icon {
   -webkit-transform: scale(1.3) translateZ(0);
   transform: scale(1.3) translateZ(0);
 }
 
 /* Icon Shrink */
-/* line 3214, scss/partials/_hover-effects.scss */
 .hvr-icon-shrink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3223, scss/partials/_hover-effects.scss */
 .hvr-icon-shrink .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3734,8 +3230,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3233, scss/partials/_hover-effects.scss */
 .hvr-icon-shrink:hover .hvr-icon, .hvr-icon-shrink:focus .hvr-icon, .hvr-icon-shrink:active .hvr-icon {
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
@@ -3762,24 +3256,19 @@ body.home .darkHeader {
     transform: scale(0.8);
   }
 }
-/* line 3259, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3266, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3272, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse:hover .hvr-icon, .hvr-icon-pulse:focus .hvr-icon, .hvr-icon-pulse:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pulse;
   animation-name: hvr-icon-pulse;
@@ -3804,24 +3293,19 @@ body.home .darkHeader {
     transform: scale(1.3);
   }
 }
-/* line 3296, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse-grow {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3303, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse-grow .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3309, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse-grow:hover .hvr-icon, .hvr-icon-pulse-grow:focus .hvr-icon, .hvr-icon-pulse-grow:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pulse-grow;
   animation-name: hvr-icon-pulse-grow;
@@ -3848,24 +3332,19 @@ body.home .darkHeader {
     transform: scale(0.8);
   }
 }
-/* line 3335, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse-shrink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-
-/* line 3342, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse-shrink .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3348, scss/partials/_hover-effects.scss */
 .hvr-icon-pulse-shrink:hover .hvr-icon, .hvr-icon-pulse-shrink:focus .hvr-icon, .hvr-icon-pulse-shrink:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pulse-shrink;
   animation-name: hvr-icon-pulse-shrink;
@@ -3892,18 +3371,15 @@ body.home .darkHeader {
     transform: scale(0.5);
   }
 }
-/* line 3374, scss/partials/_hover-effects.scss */
 .hvr-icon-push {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3383, scss/partials/_hover-effects.scss */
 .hvr-icon-push .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3914,8 +3390,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3393, scss/partials/_hover-effects.scss */
 .hvr-icon-push:hover .hvr-icon, .hvr-icon-push:focus .hvr-icon, .hvr-icon-push:active .hvr-icon {
   -webkit-animation-name: hvr-icon-push;
   animation-name: hvr-icon-push;
@@ -3940,18 +3414,15 @@ body.home .darkHeader {
     transform: scale(1.5);
   }
 }
-/* line 3417, scss/partials/_hover-effects.scss */
 .hvr-icon-pop {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3426, scss/partials/_hover-effects.scss */
 .hvr-icon-pop .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3962,8 +3433,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3436, scss/partials/_hover-effects.scss */
 .hvr-icon-pop:hover .hvr-icon, .hvr-icon-pop:focus .hvr-icon, .hvr-icon-pop:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pop;
   animation-name: hvr-icon-pop;
@@ -3976,18 +3445,15 @@ body.home .darkHeader {
 }
 
 /* Icon Bounce */
-/* line 3448, scss/partials/_hover-effects.scss */
 .hvr-icon-bounce {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3457, scss/partials/_hover-effects.scss */
 .hvr-icon-bounce .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3998,8 +3464,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3467, scss/partials/_hover-effects.scss */
 .hvr-icon-bounce:hover .hvr-icon, .hvr-icon-bounce:focus .hvr-icon, .hvr-icon-bounce:active .hvr-icon {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
@@ -4008,18 +3472,15 @@ body.home .darkHeader {
 }
 
 /* Icon Rotate */
-/* line 3475, scss/partials/_hover-effects.scss */
 .hvr-icon-rotate {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3484, scss/partials/_hover-effects.scss */
 .hvr-icon-rotate .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4030,26 +3491,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3494, scss/partials/_hover-effects.scss */
 .hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
 }
 
 /* Icon Grow Rotate */
-/* line 3500, scss/partials/_hover-effects.scss */
 .hvr-icon-grow-rotate {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3509, scss/partials/_hover-effects.scss */
 .hvr-icon-grow-rotate .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4060,26 +3516,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3519, scss/partials/_hover-effects.scss */
 .hvr-icon-grow-rotate:hover .hvr-icon, .hvr-icon-grow-rotate:focus .hvr-icon, .hvr-icon-grow-rotate:active .hvr-icon {
   -webkit-transform: scale(1.5) rotate(12deg);
   transform: scale(1.5) rotate(12deg);
 }
 
 /* Icon Float */
-/* line 3525, scss/partials/_hover-effects.scss */
 .hvr-icon-float {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3534, scss/partials/_hover-effects.scss */
 .hvr-icon-float .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4090,26 +3541,21 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3544, scss/partials/_hover-effects.scss */
 .hvr-icon-float:hover .hvr-icon, .hvr-icon-float:focus .hvr-icon, .hvr-icon-float:active .hvr-icon {
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
 }
 
 /* Icon Sink */
-/* line 3550, scss/partials/_hover-effects.scss */
 .hvr-icon-sink {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3559, scss/partials/_hover-effects.scss */
 .hvr-icon-sink .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4120,8 +3566,6 @@ body.home .darkHeader {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
-/* line 3569, scss/partials/_hover-effects.scss */
 .hvr-icon-sink:hover .hvr-icon, .hvr-icon-sink:focus .hvr-icon, .hvr-icon-sink:active .hvr-icon {
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -4168,24 +3612,19 @@ body.home .darkHeader {
     transform: translateY(-6px);
   }
 }
-/* line 3615, scss/partials/_hover-effects.scss */
 .hvr-icon-bob {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3624, scss/partials/_hover-effects.scss */
 .hvr-icon-bob .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 3628, scss/partials/_hover-effects.scss */
 .hvr-icon-bob:hover .hvr-icon, .hvr-icon-bob:focus .hvr-icon, .hvr-icon-bob:active .hvr-icon {
   -webkit-animation-name: hvr-icon-bob-float, hvr-icon-bob;
   animation-name: hvr-icon-bob-float, hvr-icon-bob;
@@ -4244,24 +3683,19 @@ body.home .darkHeader {
     transform: translateY(6px);
   }
 }
-/* line 3686, scss/partials/_hover-effects.scss */
 .hvr-icon-hang {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3695, scss/partials/_hover-effects.scss */
 .hvr-icon-hang .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 3699, scss/partials/_hover-effects.scss */
 .hvr-icon-hang:hover .hvr-icon, .hvr-icon-hang:focus .hvr-icon, .hvr-icon-hang:active .hvr-icon {
   -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
   animation-name: hvr-icon-hang-sink, hvr-icon-hang;
@@ -4332,24 +3766,19 @@ body.home .darkHeader {
     transform: translateX(0);
   }
 }
-/* line 3769, scss/partials/_hover-effects.scss */
 .hvr-icon-wobble-horizontal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3778, scss/partials/_hover-effects.scss */
 .hvr-icon-wobble-horizontal .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 3782, scss/partials/_hover-effects.scss */
 .hvr-icon-wobble-horizontal:hover .hvr-icon, .hvr-icon-wobble-horizontal:focus .hvr-icon, .hvr-icon-wobble-horizontal:active .hvr-icon {
   -webkit-animation-name: hvr-icon-wobble-horizontal;
   animation-name: hvr-icon-wobble-horizontal;
@@ -4414,24 +3843,19 @@ body.home .darkHeader {
     transform: translateY(0);
   }
 }
-/* line 3846, scss/partials/_hover-effects.scss */
 .hvr-icon-wobble-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3855, scss/partials/_hover-effects.scss */
 .hvr-icon-wobble-vertical .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 3859, scss/partials/_hover-effects.scss */
 .hvr-icon-wobble-vertical:hover .hvr-icon, .hvr-icon-wobble-vertical:focus .hvr-icon, .hvr-icon-wobble-vertical:active .hvr-icon {
   -webkit-animation-name: hvr-icon-wobble-vertical;
   animation-name: hvr-icon-wobble-vertical;
@@ -4464,24 +3888,19 @@ body.home .darkHeader {
     transform: translateX(-3px) rotate(-2deg);
   }
 }
-/* line 3891, scss/partials/_hover-effects.scss */
 .hvr-icon-buzz {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 3900, scss/partials/_hover-effects.scss */
 .hvr-icon-buzz .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 3904, scss/partials/_hover-effects.scss */
 .hvr-icon-buzz:hover .hvr-icon, .hvr-icon-buzz:focus .hvr-icon, .hvr-icon-buzz:active .hvr-icon {
   -webkit-animation-name: hvr-icon-buzz;
   animation-name: hvr-icon-buzz;
@@ -4578,24 +3997,19 @@ body.home .darkHeader {
     transform: translateX(-1px) rotate(0);
   }
 }
-/* line 4000, scss/partials/_hover-effects.scss */
 .hvr-icon-buzz-out {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-
-/* line 4009, scss/partials/_hover-effects.scss */
 .hvr-icon-buzz-out .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-
-/* line 4013, scss/partials/_hover-effects.scss */
 .hvr-icon-buzz-out:hover .hvr-icon, .hvr-icon-buzz-out:focus .hvr-icon, .hvr-icon-buzz-out:active .hvr-icon {
   -webkit-animation-name: hvr-icon-buzz-out;
   animation-name: hvr-icon-buzz-out;
@@ -4609,17 +4023,14 @@ body.home .darkHeader {
 
 /* CURLS */
 /* Curl Top Left */
-/* line 4026, scss/partials/_hover-effects.scss */
 .hvr-curl-top-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 4034, scss/partials/_hover-effects.scss */
 .hvr-curl-top-left:before {
   pointer-events: none;
   position: absolute;
@@ -4640,25 +4051,20 @@ body.home .darkHeader {
   -webkit-transition-property: width, height;
   transition-property: width, height;
 }
-
-/* line 4054, scss/partials/_hover-effects.scss */
 .hvr-curl-top-left:hover:before, .hvr-curl-top-left:focus:before, .hvr-curl-top-left:active:before {
   width: 25px;
   height: 25px;
 }
 
 /* Curl Top Right */
-/* line 4060, scss/partials/_hover-effects.scss */
 .hvr-curl-top-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 4068, scss/partials/_hover-effects.scss */
 .hvr-curl-top-right:before {
   pointer-events: none;
   position: absolute;
@@ -4676,25 +4082,20 @@ body.home .darkHeader {
   -webkit-transition-property: width, height;
   transition-property: width, height;
 }
-
-/* line 4085, scss/partials/_hover-effects.scss */
 .hvr-curl-top-right:hover:before, .hvr-curl-top-right:focus:before, .hvr-curl-top-right:active:before {
   width: 25px;
   height: 25px;
 }
 
 /* Curl Bottom Right */
-/* line 4091, scss/partials/_hover-effects.scss */
 .hvr-curl-bottom-right {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 4099, scss/partials/_hover-effects.scss */
 .hvr-curl-bottom-right:before {
   pointer-events: none;
   position: absolute;
@@ -4712,25 +4113,20 @@ body.home .darkHeader {
   -webkit-transition-property: width, height;
   transition-property: width, height;
 }
-
-/* line 4116, scss/partials/_hover-effects.scss */
 .hvr-curl-bottom-right:hover:before, .hvr-curl-bottom-right:focus:before, .hvr-curl-bottom-right:active:before {
   width: 25px;
   height: 25px;
 }
 
 /* Curl Bottom Left */
-/* line 4122, scss/partials/_hover-effects.scss */
 .hvr-curl-bottom-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
 }
-
-/* line 4130, scss/partials/_hover-effects.scss */
 .hvr-curl-bottom-left:before {
   pointer-events: none;
   position: absolute;
@@ -4748,8 +4144,6 @@ body.home .darkHeader {
   -webkit-transition-property: width, height;
   transition-property: width, height;
 }
-
-/* line 4147, scss/partials/_hover-effects.scss */
 .hvr-curl-bottom-left:hover:before, .hvr-curl-bottom-left:focus:before, .hvr-curl-bottom-left:active:before {
   width: 25px;
   height: 25px;

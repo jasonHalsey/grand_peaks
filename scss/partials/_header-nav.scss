@@ -14,4 +14,13 @@ body.home{
 	    border-right: 1px solid rgba(255,255,255,0.0);
 	    color:$white;
 	}
+	.startHead{
+		background-color: transparent;
+		transition: background-color 0.5s ease;
+	}
+	.darkHeader{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
 }
+
+

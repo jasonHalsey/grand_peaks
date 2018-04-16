@@ -1,3 +1,37 @@
 #x-widgetbar,#x-btn-widgetbar{
 	display:none!important;
 }
+
+.cta-content{
+	display: block;
+	padding:0.25em 1.0em;
+	color:$a_black;
+	border: 1px solid $a_black;
+	font-size: 1.55em;
+	i{
+		margin-left: 0.5em;
+	}
+}
+
+.gp_light_row{
+	color:$a_white!important;
+	h3{
+		color:$a_white!important;
+		font-size: 3.5em;
+	}
+	.cta-content{
+		color:$a_white;
+		border: 1px solid $a_white;
+	}
+
+}
+.gp_dk_row{
+	color:$a_black!important;
+	h3{
+		font-size: 3.5em;
+	}
+}
+.home_cta_block{
+	display: block;
+	vertical-align: middle!important;
+}
