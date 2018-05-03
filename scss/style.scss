@@ -10,8 +10,15 @@ Template: x
 
 */
 
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
 @import "partials/variables";
+@import "partials/mixins";
 @import "partials/global";
 @import "partials/header-nav";
 @import "partials/hover-effects";
+@import "partials/animations-ie-fix";
+@import "partials/animations";
+@import "partials/footer";
+@import "partials/models-interior";
+@import "partials/downloads";

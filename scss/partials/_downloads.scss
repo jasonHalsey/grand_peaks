@@ -1,0 +1,52 @@
+.fp_download_section{
+	&:nth-child(odd){
+		background-color: $a_brown!important;
+	}
+	&:nth-child(even){
+		background-color: $a_khaki!important;
+	}
+	.fp_download_row{
+		display: flex;
+		align-items: center;
+		.fp_download_img_col{
+
+		}
+		.fp_download_txt_col{
+			color:$a_white;
+			text-align: center;
+			h3{
+				color:$a_white;
+			}
+			.x-text{
+				color:$a_white;
+			}
+			ul{
+				list-style-type: none;
+				font-size: 1.125em;
+				.hvr-icon{
+					margin-right: 0.5em;
+				}
+			}
+		}
+		.fp_download_btn_col{
+			text-align: center;
+			a{
+				color:$a_white;
+				padding:0.5em 1.0em;
+				border:1px solid $a_white;
+				display: block;
+				transition: all 0.5s ease;
+				&:hover{
+					background-color: $a_white;
+					color:$a_black;
+					border: 1px solid $dk_grey;
+				}
+				.fa-file-pdf{
+					margin-left: 1.0em;
+					font-size: 1.5em;
+					margin-top: 0.25em;
+				}
+			}
+		}
+	}
+}

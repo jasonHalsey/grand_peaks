@@ -1,10 +1,10 @@
 body.home{
-	.x-logobar, .x-navbar, .x-navbar .sub-menu, .x-colophon.top {
+	.x-logobar, .x-navbar, .x-colophon.top {
     	background-color: transparent;
     	border-bottom: none;
 	}
 	.hero_container{
-		margin-top: -90px;
+		margin-top: -130px;
 	}
 	.x-navbar .desktop .x-nav>li:first-child>a {
 	    border-left: 1px solid rgba(255,255,255,0.0);
@@ -21,6 +21,40 @@ body.home{
 	.darkHeader{
 		background-color: rgba(0, 0, 0, 0.5);
 	}
+	.fa-phone:before {
+	    color: #fff;
+	}
+}
+.x-navbar .desktop .sub-menu .current-menu-item > a{
+	color:$a_white!important;
+}
+.x-navbar .desktop .sub-menu a{
+	color:$a_white!important;
+	&:hover{
+		color:$white!important;
+	}
+}
+.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .current-menu-item > a{
+	color: $a_white!important;
 }
 
-
+.x-navbar .x-nav > li.contact-btn > a > span{
+	display:none;
+}
+.fa::before {
+	float: left;
+}
+.fa-lg{
+	line-height: 5.3!important;
+}
+.fa-phone:before {
+    color: #858e8e;
+    margin-left: 0.45em;
+    &:hover{
+    	color:#fff;
+    }
+}
+.x-navbar .desktop .x-nav > li.contact-btn > a:hover{
+    box-shadow: none;
+    color:#ffffff!important;
+}

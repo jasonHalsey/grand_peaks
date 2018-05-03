@@ -1,0 +1,39 @@
+.x-colophon.top{
+	background-color:$a_white!important;
+}
+
+footer{
+	h4{
+		margin-top: 0;
+		color:$a_black;
+	}
+	p{
+		color:$a_black;
+	}
+	#media_image-2{
+		img{
+			width:65%;
+			height:auto;
+			float:right;
+		}
+	}
+	form{
+		label{
+			color:$a_black;
+			font-size: 0.85em;
+		}
+		input[type="text"],input[type="email"]{
+			height:3.0em;
+		}
+		[type="submit"]{
+			background-color: transparent;
+			text-shadow: none;
+			box-shadow: none;
+			border-radius: 0;
+			border-color: $a_black;
+			color:$a_black;
+			width:100%;
+		}
+
+	}
+}
