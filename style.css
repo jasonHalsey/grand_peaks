@@ -117,6 +117,12 @@ h1, h2, h3 {
   box-shadow: none;
 }
 
+/* line 88, scss/partials/_global.scss */
+.white_text {
+  color: #f6f1ed !important;
+  text-shadow: 1px 1px 9px rgba(28, 28, 28, 0.56);
+}
+
 /* line 2, scss/partials/_header-nav.scss */
 body.home .x-logobar, body.home .x-navbar, body.home .x-colophon.top {
   background-color: transparent;
@@ -7035,6 +7041,28 @@ footer form [type="submit"] {
   width: 100%;
 }
 
+/* line 41, scss/partials/_footer.scss */
+.footer_sm_logo {
+  display: block;
+  width: 45%;
+  float: left;
+  margin-top: 1.5em;
+}
+/* line 46, scss/partials/_footer.scss */
+.footer_sm_logo:last-child {
+  float: right;
+}
+
+/* line 50, scss/partials/_footer.scss */
+.ccb_footer {
+  color: #30231d;
+  font-size: 0.75em;
+  letter-spacing: 0.025em;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
 /* line 1, scss/partials/_models-interior.scss */
 .hero_header {
   position: relative;
@@ -7294,6 +7322,18 @@ h1.interior-header {
   color: #f6f1ed;
   border: 1px solid #f6f1ed;
   padding: 0.3em 1.0em;
+}
+
+/* line 216, scss/partials/_models-interior.scss */
+.fp_btn img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 222, scss/partials/_models-interior.scss */
+.color_palette_img img {
+  width: 100%;
+  height: auto;
 }
 
 /* line 2, scss/partials/_downloads.scss */

@@ -37,3 +37,21 @@ footer{
 
 	}
 }
+
+.footer_sm_logo{
+	display:block;
+	width:45%;
+	float:left;
+	margin-top: 1.5em;
+	&:last-child{
+		float:right;
+	}
+}
+.ccb_footer{
+	color:$a_black;
+	font-size: 0.75em;
+	letter-spacing: 0.025em;
+	text-align: center;
+	width: 100%;
+	display:block;
+}
