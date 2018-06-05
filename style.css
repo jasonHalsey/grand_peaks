@@ -40,73 +40,79 @@ h1, h2, h3 {
   margin-left: 0.5em;
 }
 
-/* line 25, scss/partials/_global.scss */
+/* line 24, scss/partials/_global.scss */
+.see-homes-btn {
+  background-color: #6a5750 !important;
+  color: #f6f1ed !important;
+}
+
+/* line 29, scss/partials/_global.scss */
 .gp_light_row {
   color: #f6f1ed !important;
 }
-/* line 27, scss/partials/_global.scss */
+/* line 31, scss/partials/_global.scss */
 .gp_light_row h3 {
   color: #f6f1ed !important;
   font-size: 3.5em;
   line-height: 1;
 }
-/* line 32, scss/partials/_global.scss */
+/* line 36, scss/partials/_global.scss */
 .gp_light_row .cta-content {
   color: #f6f1ed;
   border: 1px solid #f6f1ed;
 }
 
-/* line 38, scss/partials/_global.scss */
+/* line 42, scss/partials/_global.scss */
 .gp_dk_row {
   color: #30231d !important;
 }
-/* line 40, scss/partials/_global.scss */
+/* line 44, scss/partials/_global.scss */
 .gp_dk_row h3 {
   font-size: 3.5em;
   line-height: 1;
 }
 
-/* line 45, scss/partials/_global.scss */
+/* line 49, scss/partials/_global.scss */
 .home_cta_block {
   display: block;
   vertical-align: middle !important;
 }
 
-/* line 50, scss/partials/_global.scss */
+/* line 54, scss/partials/_global.scss */
 .x-column {
   overflow: hidden;
 }
 
-/* line 54, scss/partials/_global.scss */
+/* line 58, scss/partials/_global.scss */
 .home_grow img {
   transition: all 0.6s;
 }
-/* line 56, scss/partials/_global.scss */
+/* line 60, scss/partials/_global.scss */
 .home_grow img:hover {
   transform: scale(1.1);
 }
 
-/* line 61, scss/partials/_global.scss */
+/* line 65, scss/partials/_global.scss */
 .x-text {
   line-height: 2 !important;
 }
 
-/* line 65, scss/partials/_global.scss */
+/* line 69, scss/partials/_global.scss */
 #flyout-content-id-100 input[type="text"], #flyout-content-id-100 input[type="email"] {
   background-color: #f6f1ed !important;
   height: 2.75em;
   color: #30231d;
 }
-/* line 70, scss/partials/_global.scss */
+/* line 74, scss/partials/_global.scss */
 #flyout-content-id-100 label {
   font-weight: 400;
   font-size: 0.75em;
 }
-/* line 74, scss/partials/_global.scss */
+/* line 78, scss/partials/_global.scss */
 #flyout-content-id-100 .bne-flyout-wrapper input[type="text"] {
   background: #f6f1ed !important;
 }
-/* line 77, scss/partials/_global.scss */
+/* line 81, scss/partials/_global.scss */
 #flyout-content-id-100 [type="submit"] {
   width: 100%;
   background-color: transparent;
@@ -117,9 +123,19 @@ h1, h2, h3 {
   box-shadow: none;
 }
 
+/* line 92, scss/partials/_global.scss */
+.white_text {
+  color: #f6f1ed !important;
+  text-shadow: 1px 1px 9px rgba(28, 28, 28, 0.56);
+}
+
+/* line 97, scss/partials/_global.scss */
+.cta-row-block {
+  border: 1px solid #f6f1ed;
+}
+
 /* line 2, scss/partials/_header-nav.scss */
 body.home .x-logobar, body.home .x-navbar, body.home .x-colophon.top {
-  background-color: transparent;
   border-bottom: none;
 }
 /* line 6, scss/partials/_header-nav.scss */
@@ -128,12 +144,10 @@ body.home .hero_container {
 }
 /* line 9, scss/partials/_header-nav.scss */
 body.home .x-navbar .desktop .x-nav > li:first-child > a {
-  border-left: 1px solid rgba(255, 255, 255, 0);
   color: #ffffff;
 }
 /* line 13, scss/partials/_header-nav.scss */
 body.home .x-navbar .desktop .x-nav > li > a {
-  border-right: 1px solid rgba(255, 255, 255, 0);
   color: #ffffff;
 }
 /* line 17, scss/partials/_header-nav.scss */
@@ -158,43 +172,45 @@ body.home .fa-phone:before {
 /* line 31, scss/partials/_header-nav.scss */
 .x-navbar .desktop .sub-menu a {
   color: #f6f1ed !important;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
-/* line 33, scss/partials/_header-nav.scss */
+/* line 35, scss/partials/_header-nav.scss */
 .x-navbar .desktop .sub-menu a:hover {
   color: #ffffff !important;
 }
 
-/* line 37, scss/partials/_header-nav.scss */
+/* line 39, scss/partials/_header-nav.scss */
 .x-navbar .desktop .x-nav > li > a:hover, .x-navbar .desktop .x-nav > .current-menu-item > a {
   color: #f6f1ed !important;
 }
 
-/* line 41, scss/partials/_header-nav.scss */
+/* line 43, scss/partials/_header-nav.scss */
 .x-navbar .x-nav > li.contact-btn > a > span {
   display: none;
 }
 
-/* line 44, scss/partials/_header-nav.scss */
+/* line 46, scss/partials/_header-nav.scss */
 .fa::before {
   float: left;
 }
 
-/* line 47, scss/partials/_header-nav.scss */
+/* line 49, scss/partials/_header-nav.scss */
 .fa-lg {
   line-height: 5.3 !important;
 }
 
-/* line 50, scss/partials/_header-nav.scss */
+/* line 52, scss/partials/_header-nav.scss */
 .fa-phone:before {
   color: #858e8e;
   margin-left: 0.45em;
 }
-/* line 53, scss/partials/_header-nav.scss */
+/* line 55, scss/partials/_header-nav.scss */
 .fa-phone:before:hover {
   color: #fff;
 }
 
-/* line 57, scss/partials/_header-nav.scss */
+/* line 59, scss/partials/_header-nav.scss */
 .x-navbar .desktop .x-nav > li.contact-btn > a:hover {
   box-shadow: none;
   color: #ffffff !important;
@@ -7035,6 +7051,49 @@ footer form [type="submit"] {
   width: 100%;
 }
 
+/* line 41, scss/partials/_footer.scss */
+.x-colophon.top {
+  padding: 5% 0 0;
+}
+
+/* line 45, scss/partials/_footer.scss */
+.x-colophon.bottom {
+  background-color: #f6f1ed !important;
+}
+/* line 48, scss/partials/_footer.scss */
+.x-colophon.bottom .x-colophon-content p {
+  color: #30231d;
+  margin-bottom: 1.5em !important;
+}
+/* line 51, scss/partials/_footer.scss */
+.x-colophon.bottom .x-colophon-content p img {
+  max-width: 4.0em;
+  margin-top: 2.0em;
+}
+
+/* line 60, scss/partials/_footer.scss */
+.footer_sm_logo {
+  display: block;
+  width: 45%;
+  float: left;
+  margin-top: 1.5em;
+}
+/* line 65, scss/partials/_footer.scss */
+.footer_sm_logo:last-child {
+  float: right;
+}
+
+/* line 69, scss/partials/_footer.scss */
+.ccb_footer {
+  color: #30231d;
+  font-size: 0.75em;
+  letter-spacing: 0.025em;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: 2.0em;
+}
+
 /* line 1, scss/partials/_models-interior.scss */
 .hero_header {
   position: relative;
@@ -7111,22 +7170,26 @@ h1.interior-header {
   clear: both;
   padding: 0.5em 3.5em;
   background-color: transparent;
-  color: #30231d;
-  border: 1px solid #30231d;
+  background-color: #b7aba2;
+  color: #f6f1ed;
   margin: 2em 0 !important;
   transition: all 0.5s ease;
 }
-/* line 69, scss/partials/_models-interior.scss */
+/* line 71, scss/partials/_models-interior.scss */
 .model_row a.model_details:hover {
-  background-color: #b7aba2;
-  color: #f6f1ed;
+  color: #30231d;
+  background-color: #f6f1ed;
+}
+/* line 76, scss/partials/_models-interior.scss */
+.model_row a.model_details i {
+  margin-left: 0.25em;
 }
 
-/* line 76, scss/partials/_models-interior.scss */
+/* line 82, scss/partials/_models-interior.scss */
 .model_hero_header {
   position: relative;
 }
-/* line 78, scss/partials/_models-interior.scss */
+/* line 84, scss/partials/_models-interior.scss */
 .model_hero_header img {
   width: 100%;
   height: auto;
@@ -7134,18 +7197,18 @@ h1.interior-header {
   opacity: 0;
 }
 
-/* line 88, scss/partials/_models-interior.scss */
+/* line 94, scss/partials/_models-interior.scss */
 .model_description_row h2 {
   margin: 0 0 0.2em;
   border-bottom: 1px solid #999999;
 }
-/* line 92, scss/partials/_models-interior.scss */
+/* line 98, scss/partials/_models-interior.scss */
 .model_description_row .model_row_cta {
   padding: 1.0em;
   color: #f6f1ed !important;
   background-color: #b7aba2 !important;
 }
-/* line 96, scss/partials/_models-interior.scss */
+/* line 102, scss/partials/_models-interior.scss */
 .model_description_row .model_row_cta h3 {
   text-align: center;
   color: #f6f1ed !important;
@@ -7154,15 +7217,15 @@ h1.interior-header {
   border-bottom: 1px solid #f6f1ed;
   padding-bottom: 0.65em;
 }
-/* line 104, scss/partials/_models-interior.scss */
+/* line 110, scss/partials/_models-interior.scss */
 .model_description_row .model_row_cta .x-text {
   color: #f6f1ed !important;
 }
-/* line 107, scss/partials/_models-interior.scss */
+/* line 113, scss/partials/_models-interior.scss */
 .model_description_row .model_row_cta input[type="text"], .model_description_row .model_row_cta input[type="email"] {
   height: 2.0em;
 }
-/* line 110, scss/partials/_models-interior.scss */
+/* line 116, scss/partials/_models-interior.scss */
 .model_description_row .model_row_cta [type="submit"] {
   background-color: transparent;
   text-shadow: none;
@@ -7172,11 +7235,11 @@ h1.interior-header {
   color: #f6f1ed;
   width: 100%;
 }
-/* line 119, scss/partials/_models-interior.scss */
+/* line 125, scss/partials/_models-interior.scss */
 .model_description_row .model_row_cta label {
   font-size: 0.85em;
 }
-/* line 123, scss/partials/_models-interior.scss */
+/* line 129, scss/partials/_models-interior.scss */
 .model_description_row .model_descript_short {
   display: flex;
   justify-content: space-around;
@@ -7185,13 +7248,13 @@ h1.interior-header {
   font-size: 1.2em !important;
 }
 
-/* line 133, scss/partials/_models-interior.scss */
+/* line 139, scss/partials/_models-interior.scss */
 .secondary_row img {
   width: 100%;
   height: auto;
   display: block;
 }
-/* line 138, scss/partials/_models-interior.scss */
+/* line 144, scss/partials/_models-interior.scss */
 .secondary_row .secondary_img_col {
   margin: 0px;
   width: 100%;
@@ -7206,27 +7269,27 @@ h1.interior-header {
   height: auto;
 }
 @media all and (max-width: 900px) {
-  /* line 138, scss/partials/_models-interior.scss */
+  /* line 144, scss/partials/_models-interior.scss */
   .secondary_row .secondary_img_col {
     opacity: 1;
   }
 }
-/* line 141, scss/partials/_models-interior.scss */
+/* line 147, scss/partials/_models-interior.scss */
 .secondary_row .secondary_txt_col {
   vertical-align: middle !important;
   padding: 1.0em 5.0em;
 }
-/* line 144, scss/partials/_models-interior.scss */
+/* line 150, scss/partials/_models-interior.scss */
 .secondary_row .secondary_txt_col p {
   width: 75%;
 }
 
-/* line 149, scss/partials/_models-interior.scss */
+/* line 155, scss/partials/_models-interior.scss */
 .dk_row {
   background-color: #b7aba2 !important;
   color: #f6f1ed !important;
 }
-/* line 152, scss/partials/_models-interior.scss */
+/* line 158, scss/partials/_models-interior.scss */
 .dk_row h2 {
   color: #f6f1ed !important;
   font-family: "Playfair Display", serif;
@@ -7237,17 +7300,17 @@ h1.interior-header {
   font-size: 2.0em;
   margin-bottom: 1.3em;
 }
-/* line 162, scss/partials/_models-interior.scss */
+/* line 168, scss/partials/_models-interior.scss */
 .dk_row p {
   color: #f6f1ed !important;
 }
 
-/* line 166, scss/partials/_models-interior.scss */
+/* line 172, scss/partials/_models-interior.scss */
 .lt_row {
   background-color: #6a5750 !important;
   color: #f6f1ed !important;
 }
-/* line 169, scss/partials/_models-interior.scss */
+/* line 175, scss/partials/_models-interior.scss */
 .lt_row h2 {
   color: #f6f1ed !important;
   font-family: "Playfair Display", serif;
@@ -7258,42 +7321,54 @@ h1.interior-header {
   font-size: 2.0em;
   margin-bottom: 1.3em;
 }
-/* line 179, scss/partials/_models-interior.scss */
+/* line 185, scss/partials/_models-interior.scss */
 .lt_row p {
   color: #f6f1ed !important;
 }
 
-/* line 185, scss/partials/_models-interior.scss */
+/* line 191, scss/partials/_models-interior.scss */
 .cta_row .cta_txt_col {
   display: flex;
   justify-content: center;
 }
-/* line 189, scss/partials/_models-interior.scss */
+/* line 195, scss/partials/_models-interior.scss */
 .cta_row .cta_txt_col div.x-text {
   padding: 2.0em;
   align-self: center;
 }
-/* line 192, scss/partials/_models-interior.scss */
+/* line 198, scss/partials/_models-interior.scss */
 .cta_row .cta_txt_col div.x-text h3 {
   color: #f6f1ed !important;
 }
-/* line 198, scss/partials/_models-interior.scss */
+/* line 204, scss/partials/_models-interior.scss */
 .cta_row .cta_btn_col {
   display: flex;
   justify-content: center;
   height: 100%;
 }
-/* line 203, scss/partials/_models-interior.scss */
+/* line 209, scss/partials/_models-interior.scss */
 .cta_row .cta_btn_col div.x-text {
   padding: 2.0em;
   align-self: center;
 }
-/* line 206, scss/partials/_models-interior.scss */
+/* line 212, scss/partials/_models-interior.scss */
 .cta_row .cta_btn_col div.x-text a {
   display: block;
   color: #f6f1ed;
   border: 1px solid #f6f1ed;
   padding: 0.3em 1.0em;
+}
+
+/* line 222, scss/partials/_models-interior.scss */
+.fp_btn img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 228, scss/partials/_models-interior.scss */
+.color_palette_img img {
+  width: 100%;
+  height: auto;
 }
 
 /* line 2, scss/partials/_downloads.scss */
