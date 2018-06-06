@@ -3,19 +3,6 @@
 	body.home .hero_container {
 	    margin-top: 0;
 	}
-	// header{
-	// 	.x-container.width {
-	// 	    width: 88%!important;
-	// 	}
-	// }
-	// footer{
-	// 	.x-container.width {
-	// 	    width: 88%!important;
-	// 	}
-	// }
-	// .x-container.width {
-	//     width: 100%!important;
-	// }
 	.x-btn-navbar {
 	    margin-top: 20px;
 	    margin-bottom: 20px;
@@ -114,5 +101,17 @@
 		margin-bottom: 0.5em;
 		text-align: center;
 		width:100%;
+	}
+	.x-navbar .mobile .x-nav .current-menu-item > a{
+		color:$a_white!important;
+	}
+	.x-navbar .mobile .x-nav li>a:last-child{
+		background-color: rgba(0,0,0,0)!important;
+	}
+	.x-navbar .mobile .x-nav li > a:hover, .x-navbar .mobile .x-nav .x-active > a{
+		color:$a_white!important;
+	}
+	.fa-lg{
+		line-height: 1!important;
 	}
 }

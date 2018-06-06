@@ -8008,37 +8008,37 @@ h1.interior-header {
     margin-top: 0;
   }
 
-  /* line 19, scss/partials/_mobile_fixes.scss */
+  /* line 6, scss/partials/_mobile_fixes.scss */
   .x-btn-navbar {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  /* line 23, scss/partials/_mobile_fixes.scss */
+  /* line 10, scss/partials/_mobile_fixes.scss */
   .e6-11.x-container, .e6-33.x-container {
     margin: 0.5em auto 0.5em auto !important;
     padding: 0 0 0 0 !important;
   }
 
-  /* line 28, scss/partials/_mobile_fixes.scss */
+  /* line 15, scss/partials/_mobile_fixes.scss */
   body.home h2 {
     font-size: 2em;
     margin-bottom: 1.0em;
   }
 
-  /* line 33, scss/partials/_mobile_fixes.scss */
+  /* line 20, scss/partials/_mobile_fixes.scss */
   .e6-15.x-line, .e6-37.x-line {
     height: 0 !important;
   }
 
-  /* line 36, scss/partials/_mobile_fixes.scss */
+  /* line 23, scss/partials/_mobile_fixes.scss */
   .gp_dk_row h3 {
     font-size: 2.5em;
     line-height: 1;
     text-align: center;
   }
 
-  /* line 41, scss/partials/_mobile_fixes.scss */
+  /* line 28, scss/partials/_mobile_fixes.scss */
   .cta-content {
     margin-top: 2.0em;
     margin-left: auto;
@@ -8049,12 +8049,12 @@ h1.interior-header {
     width: 88%;
   }
 
-  /* line 50, scss/partials/_mobile_fixes.scss */
+  /* line 37, scss/partials/_mobile_fixes.scss */
   .e6-35.x-text {
     padding: 0 !important;
   }
 
-  /* line 53, scss/partials/_mobile_fixes.scss */
+  /* line 40, scss/partials/_mobile_fixes.scss */
   .gp_light_row h3 {
     color: #f6f1ed !important;
     font-size: 2.5em;
@@ -8062,72 +8062,72 @@ h1.interior-header {
     text-align: center;
   }
 
-  /* line 59, scss/partials/_mobile_fixes.scss */
+  /* line 46, scss/partials/_mobile_fixes.scss */
   .x-colophon.top .x-column .widget:first-child {
     margin-top: 1em;
   }
 
-  /* line 63, scss/partials/_mobile_fixes.scss */
+  /* line 50, scss/partials/_mobile_fixes.scss */
   .home_grow img {
     margin-bottom: 1em;
   }
 
-  /* line 67, scss/partials/_mobile_fixes.scss */
+  /* line 54, scss/partials/_mobile_fixes.scss */
   footer #media_image-2 img {
     width: 100%;
     height: auto;
     float: none;
   }
 
-  /* line 73, scss/partials/_mobile_fixes.scss */
+  /* line 60, scss/partials/_mobile_fixes.scss */
   h1.interior-header {
     margin-top: 65px;
     font-size: 1.75em;
   }
 
-  /* line 77, scss/partials/_mobile_fixes.scss */
+  /* line 64, scss/partials/_mobile_fixes.scss */
   .model_row h1 {
     font-size: 1.75em !important;
   }
 
-  /* line 80, scss/partials/_mobile_fixes.scss */
+  /* line 67, scss/partials/_mobile_fixes.scss */
   .model_description_row .model_descript_short {
     display: block;
     width: 100%;
     justify-content: normal;
   }
-  /* line 84, scss/partials/_mobile_fixes.scss */
+  /* line 71, scss/partials/_mobile_fixes.scss */
   .model_description_row .model_descript_short span {
     display: block;
     width: 100%;
   }
 
-  /* line 89, scss/partials/_mobile_fixes.scss */
+  /* line 76, scss/partials/_mobile_fixes.scss */
   .overview_copy_row h2 {
     color: #999999;
     font-size: 1.5em;
     margin-bottom: 1.5em;
   }
 
-  /* line 94, scss/partials/_mobile_fixes.scss */
+  /* line 81, scss/partials/_mobile_fixes.scss */
   .overview_copy_row ul {
     margin: 0;
   }
 
-  /* line 97, scss/partials/_mobile_fixes.scss */
+  /* line 84, scss/partials/_mobile_fixes.scss */
   .secondary_row .secondary_txt_col {
     vertical-align: middle !important;
     padding: 0.5em;
   }
 
-  /* line 101, scss/partials/_mobile_fixes.scss */
+  /* line 88, scss/partials/_mobile_fixes.scss */
   .secondary_row .secondary_txt_col p {
     width: 100%;
     text-align: center;
     margin-bottom: 2.25em !important;
   }
 
-  /* line 106, scss/partials/_mobile_fixes.scss */
+  /* line 93, scss/partials/_mobile_fixes.scss */
   .lt_row h2 {
     font-size: 1.75em;
     margin-bottom: 0.5em;
@@ -8135,11 +8135,31 @@ h1.interior-header {
     width: 100%;
   }
 
-  /* line 112, scss/partials/_mobile_fixes.scss */
+  /* line 99, scss/partials/_mobile_fixes.scss */
   .dk_row h2 {
     font-size: 1.75em;
     margin-bottom: 0.5em;
     text-align: center;
     width: 100%;
+  }
+
+  /* line 105, scss/partials/_mobile_fixes.scss */
+  .x-navbar .mobile .x-nav .current-menu-item > a {
+    color: #f6f1ed !important;
+  }
+
+  /* line 108, scss/partials/_mobile_fixes.scss */
+  .x-navbar .mobile .x-nav li > a:last-child {
+    background-color: transparent !important;
+  }
+
+  /* line 111, scss/partials/_mobile_fixes.scss */
+  .x-navbar .mobile .x-nav li > a:hover, .x-navbar .mobile .x-nav .x-active > a {
+    color: #f6f1ed !important;
+  }
+
+  /* line 114, scss/partials/_mobile_fixes.scss */
+  .fa-lg {
+    line-height: 1 !important;
   }
 }
