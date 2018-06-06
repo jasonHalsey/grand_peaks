@@ -11,22 +11,26 @@ Template: x
 */
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 /* line 1, scss/partials/_global.scss */
+/* line 27, scss/style.scss */
 p {
   margin: 0 0 1.55em;
 }
 
 /* line 4, scss/partials/_global.scss */
+/* line 32, scss/style.scss */
 h1, h2, h3 {
   font-family: "Playfair Display", serif !important;
   letter-spacing: 0.125em !important;
 }
 
 /* line 9, scss/partials/_global.scss */
+/* line 38, scss/style.scss */
 #x-widgetbar, #x-btn-widgetbar {
   display: none !important;
 }
 
 /* line 13, scss/partials/_global.scss */
+/* line 43, scss/style.scss */
 .cta-content {
   display: block;
   padding: 0.25em 1.0em;
@@ -35,84 +39,108 @@ h1, h2, h3 {
   font-size: 1.55em;
   margin-top: 2.0em;
 }
+
 /* line 20, scss/partials/_global.scss */
+/* line 52, scss/style.scss */
 .cta-content i {
   margin-left: 0.5em;
 }
 
 /* line 24, scss/partials/_global.scss */
+/* line 57, scss/style.scss */
 .see-homes-btn {
   background-color: #6a5750 !important;
   color: #f6f1ed !important;
 }
 
 /* line 29, scss/partials/_global.scss */
+/* line 63, scss/style.scss */
 .gp_light_row {
   color: #f6f1ed !important;
 }
+
 /* line 31, scss/partials/_global.scss */
+/* line 67, scss/style.scss */
 .gp_light_row h3 {
   color: #f6f1ed !important;
   font-size: 3.5em;
   line-height: 1;
 }
+
 /* line 36, scss/partials/_global.scss */
+/* line 73, scss/style.scss */
 .gp_light_row .cta-content {
   color: #f6f1ed;
   border: 1px solid #f6f1ed;
 }
 
 /* line 42, scss/partials/_global.scss */
+/* line 79, scss/style.scss */
 .gp_dk_row {
   color: #30231d !important;
 }
+
 /* line 44, scss/partials/_global.scss */
+/* line 83, scss/style.scss */
 .gp_dk_row h3 {
   font-size: 3.5em;
   line-height: 1;
 }
 
 /* line 49, scss/partials/_global.scss */
+/* line 89, scss/style.scss */
 .home_cta_block {
   display: block;
   vertical-align: middle !important;
 }
 
 /* line 54, scss/partials/_global.scss */
+/* line 95, scss/style.scss */
 .x-column {
   overflow: hidden;
 }
 
 /* line 58, scss/partials/_global.scss */
+/* line 100, scss/style.scss */
 .home_grow img {
   transition: all 0.6s;
 }
+
 /* line 60, scss/partials/_global.scss */
+/* line 104, scss/style.scss */
 .home_grow img:hover {
   transform: scale(1.1);
 }
 
 /* line 65, scss/partials/_global.scss */
+/* line 109, scss/style.scss */
 .x-text {
   line-height: 2 !important;
 }
 
 /* line 69, scss/partials/_global.scss */
+/* line 114, scss/style.scss */
 #flyout-content-id-100 input[type="text"], #flyout-content-id-100 input[type="email"] {
   background-color: #f6f1ed !important;
   height: 2.75em;
   color: #30231d;
 }
+
 /* line 74, scss/partials/_global.scss */
+/* line 120, scss/style.scss */
 #flyout-content-id-100 label {
   font-weight: 400;
   font-size: 0.75em;
 }
+
 /* line 78, scss/partials/_global.scss */
+/* line 125, scss/style.scss */
 #flyout-content-id-100 .bne-flyout-wrapper input[type="text"] {
   background: #f6f1ed !important;
 }
+
 /* line 81, scss/partials/_global.scss */
+/* line 129, scss/style.scss */
 #flyout-content-id-100 [type="submit"] {
   width: 100%;
   background-color: transparent;
@@ -124,93 +152,120 @@ h1, h2, h3 {
 }
 
 /* line 92, scss/partials/_global.scss */
+/* line 140, scss/style.scss */
 .white_text {
   color: #f6f1ed !important;
   text-shadow: 1px 1px 9px rgba(28, 28, 28, 0.56);
 }
 
 /* line 97, scss/partials/_global.scss */
+/* line 146, scss/style.scss */
 .cta-row-block {
   border: 1px solid #f6f1ed;
 }
 
 /* line 2, scss/partials/_header-nav.scss */
+/* line 151, scss/style.scss */
 body.home .x-logobar, body.home .x-navbar, body.home .x-colophon.top {
   border-bottom: none;
 }
+
 /* line 6, scss/partials/_header-nav.scss */
+/* line 155, scss/style.scss */
 body.home .hero_container {
   margin-top: -130px;
 }
+
 /* line 9, scss/partials/_header-nav.scss */
+/* line 159, scss/style.scss */
 body.home .x-navbar .desktop .x-nav > li:first-child > a {
   color: #ffffff;
 }
+
 /* line 13, scss/partials/_header-nav.scss */
+/* line 163, scss/style.scss */
 body.home .x-navbar .desktop .x-nav > li > a {
   color: #ffffff;
 }
+
 /* line 17, scss/partials/_header-nav.scss */
+/* line 167, scss/style.scss */
 body.home .startHead {
   background-color: transparent;
   transition: background-color 0.5s ease;
 }
+
 /* line 21, scss/partials/_header-nav.scss */
+/* line 172, scss/style.scss */
 body.home .darkHeader {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 /* line 24, scss/partials/_header-nav.scss */
+/* line 176, scss/style.scss */
 body.home .fa-phone:before {
   color: #fff;
 }
 
 /* line 28, scss/partials/_header-nav.scss */
+/* line 181, scss/style.scss */
 .x-navbar .desktop .sub-menu .current-menu-item > a {
   color: #f6f1ed !important;
 }
 
 /* line 31, scss/partials/_header-nav.scss */
+/* line 186, scss/style.scss */
 .x-navbar .desktop .sub-menu a {
   color: #f6f1ed !important;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
 /* line 35, scss/partials/_header-nav.scss */
+/* line 192, scss/style.scss */
 .x-navbar .desktop .sub-menu a:hover {
   color: #ffffff !important;
 }
 
 /* line 39, scss/partials/_header-nav.scss */
+/* line 197, scss/style.scss */
 .x-navbar .desktop .x-nav > li > a:hover, .x-navbar .desktop .x-nav > .current-menu-item > a {
   color: #f6f1ed !important;
 }
 
 /* line 43, scss/partials/_header-nav.scss */
+/* line 202, scss/style.scss */
 .x-navbar .x-nav > li.contact-btn > a > span {
   display: none;
 }
 
 /* line 46, scss/partials/_header-nav.scss */
+/* line 207, scss/style.scss */
 .fa::before {
   float: left;
 }
 
 /* line 49, scss/partials/_header-nav.scss */
+/* line 212, scss/style.scss */
 .fa-lg {
   line-height: 5.3 !important;
 }
 
 /* line 52, scss/partials/_header-nav.scss */
+/* line 217, scss/style.scss */
 .fa-phone:before {
   color: #858e8e;
   margin-left: 0.45em;
 }
+
 /* line 55, scss/partials/_header-nav.scss */
+/* line 222, scss/style.scss */
 .fa-phone:before:hover {
   color: #fff;
 }
 
 /* line 59, scss/partials/_header-nav.scss */
+/* line 227, scss/style.scss */
 .x-navbar .desktop .x-nav > li.contact-btn > a:hover {
   box-shadow: none;
   color: #ffffff !important;
@@ -228,6 +283,7 @@ body.home .fa-phone:before {
 /* 2D TRANSITIONS */
 /* Grow */
 /* line 12, scss/partials/_hover-effects.scss */
+/* line 244, scss/style.scss */
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -241,6 +297,7 @@ body.home .fa-phone:before {
 }
 
 /* line 23, scss/partials/_hover-effects.scss */
+/* line 257, scss/style.scss */
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -248,6 +305,7 @@ body.home .fa-phone:before {
 
 /* Shrink */
 /* line 29, scss/partials/_hover-effects.scss */
+/* line 264, scss/style.scss */
 .hvr-shrink {
   display: inline-block;
   vertical-align: middle;
@@ -261,6 +319,7 @@ body.home .fa-phone:before {
 }
 
 /* line 40, scss/partials/_hover-effects.scss */
+/* line 277, scss/style.scss */
 .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
@@ -288,6 +347,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 66, scss/partials/_hover-effects.scss */
+/* line 304, scss/style.scss */
 .hvr-pulse {
   display: inline-block;
   vertical-align: middle;
@@ -297,6 +357,7 @@ body.home .fa-phone:before {
 }
 
 /* line 73, scss/partials/_hover-effects.scss */
+/* line 313, scss/style.scss */
 .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
   -webkit-animation-name: hvr-pulse;
   animation-name: hvr-pulse;
@@ -322,6 +383,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 97, scss/partials/_hover-effects.scss */
+/* line 338, scss/style.scss */
 .hvr-pulse-grow {
   display: inline-block;
   vertical-align: middle;
@@ -331,6 +393,7 @@ body.home .fa-phone:before {
 }
 
 /* line 104, scss/partials/_hover-effects.scss */
+/* line 347, scss/style.scss */
 .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
@@ -358,6 +421,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 130, scss/partials/_hover-effects.scss */
+/* line 374, scss/style.scss */
 .hvr-pulse-shrink {
   display: inline-block;
   vertical-align: middle;
@@ -367,6 +431,7 @@ body.home .fa-phone:before {
 }
 
 /* line 137, scss/partials/_hover-effects.scss */
+/* line 383, scss/style.scss */
 .hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
   -webkit-animation-name: hvr-pulse-shrink;
   animation-name: hvr-pulse-shrink;
@@ -402,6 +467,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 171, scss/partials/_hover-effects.scss */
+/* line 418, scss/style.scss */
 .hvr-push {
   display: inline-block;
   vertical-align: middle;
@@ -411,6 +477,7 @@ body.home .fa-phone:before {
 }
 
 /* line 178, scss/partials/_hover-effects.scss */
+/* line 427, scss/style.scss */
 .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
   -webkit-animation-name: hvr-push;
   animation-name: hvr-push;
@@ -436,6 +503,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 202, scss/partials/_hover-effects.scss */
+/* line 452, scss/style.scss */
 .hvr-pop {
   display: inline-block;
   vertical-align: middle;
@@ -445,6 +513,7 @@ body.home .fa-phone:before {
 }
 
 /* line 209, scss/partials/_hover-effects.scss */
+/* line 461, scss/style.scss */
 .hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
   -webkit-animation-name: hvr-pop;
   animation-name: hvr-pop;
@@ -458,6 +527,7 @@ body.home .fa-phone:before {
 
 /* Bounce In */
 /* line 221, scss/partials/_hover-effects.scss */
+/* line 474, scss/style.scss */
 .hvr-bounce-in {
   display: inline-block;
   vertical-align: middle;
@@ -469,6 +539,7 @@ body.home .fa-phone:before {
 }
 
 /* line 230, scss/partials/_hover-effects.scss */
+/* line 485, scss/style.scss */
 .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
@@ -478,6 +549,7 @@ body.home .fa-phone:before {
 
 /* Bounce Out */
 /* line 238, scss/partials/_hover-effects.scss */
+/* line 494, scss/style.scss */
 .hvr-bounce-out {
   display: inline-block;
   vertical-align: middle;
@@ -489,6 +561,7 @@ body.home .fa-phone:before {
 }
 
 /* line 247, scss/partials/_hover-effects.scss */
+/* line 505, scss/style.scss */
 .hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
@@ -498,6 +571,7 @@ body.home .fa-phone:before {
 
 /* Rotate */
 /* line 255, scss/partials/_hover-effects.scss */
+/* line 514, scss/style.scss */
 .hvr-rotate {
   display: inline-block;
   vertical-align: middle;
@@ -511,6 +585,7 @@ body.home .fa-phone:before {
 }
 
 /* line 266, scss/partials/_hover-effects.scss */
+/* line 527, scss/style.scss */
 .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
   -webkit-transform: rotate(4deg);
   transform: rotate(4deg);
@@ -518,6 +593,7 @@ body.home .fa-phone:before {
 
 /* Grow Rotate */
 /* line 272, scss/partials/_hover-effects.scss */
+/* line 534, scss/style.scss */
 .hvr-grow-rotate {
   display: inline-block;
   vertical-align: middle;
@@ -531,6 +607,7 @@ body.home .fa-phone:before {
 }
 
 /* line 283, scss/partials/_hover-effects.scss */
+/* line 547, scss/style.scss */
 .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
   -webkit-transform: scale(1.1) rotate(4deg);
   transform: scale(1.1) rotate(4deg);
@@ -538,6 +615,7 @@ body.home .fa-phone:before {
 
 /* Float */
 /* line 289, scss/partials/_hover-effects.scss */
+/* line 554, scss/style.scss */
 .hvr-float {
   display: inline-block;
   vertical-align: middle;
@@ -553,6 +631,7 @@ body.home .fa-phone:before {
 }
 
 /* line 302, scss/partials/_hover-effects.scss */
+/* line 569, scss/style.scss */
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
@@ -560,6 +639,7 @@ body.home .fa-phone:before {
 
 /* Sink */
 /* line 308, scss/partials/_hover-effects.scss */
+/* line 576, scss/style.scss */
 .hvr-sink {
   display: inline-block;
   vertical-align: middle;
@@ -575,6 +655,7 @@ body.home .fa-phone:before {
 }
 
 /* line 321, scss/partials/_hover-effects.scss */
+/* line 591, scss/style.scss */
 .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
@@ -622,6 +703,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 367, scss/partials/_hover-effects.scss */
+/* line 638, scss/style.scss */
 .hvr-bob {
   display: inline-block;
   vertical-align: middle;
@@ -631,6 +713,7 @@ body.home .fa-phone:before {
 }
 
 /* line 374, scss/partials/_hover-effects.scss */
+/* line 647, scss/style.scss */
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
@@ -690,6 +773,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 432, scss/partials/_hover-effects.scss */
+/* line 706, scss/style.scss */
 .hvr-hang {
   display: inline-block;
   vertical-align: middle;
@@ -699,6 +783,7 @@ body.home .fa-phone:before {
 }
 
 /* line 439, scss/partials/_hover-effects.scss */
+/* line 715, scss/style.scss */
 .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
   animation-name: hvr-hang-sink, hvr-hang;
@@ -718,6 +803,7 @@ body.home .fa-phone:before {
 
 /* Skew */
 /* line 457, scss/partials/_hover-effects.scss */
+/* line 734, scss/style.scss */
 .hvr-skew {
   display: inline-block;
   vertical-align: middle;
@@ -731,6 +817,7 @@ body.home .fa-phone:before {
 }
 
 /* line 468, scss/partials/_hover-effects.scss */
+/* line 747, scss/style.scss */
 .hvr-skew:hover, .hvr-skew:focus, .hvr-skew:active {
   -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
@@ -738,6 +825,7 @@ body.home .fa-phone:before {
 
 /* Skew Forward */
 /* line 474, scss/partials/_hover-effects.scss */
+/* line 754, scss/style.scss */
 .hvr-skew-forward {
   display: inline-block;
   vertical-align: middle;
@@ -753,6 +841,7 @@ body.home .fa-phone:before {
 }
 
 /* line 487, scss/partials/_hover-effects.scss */
+/* line 769, scss/style.scss */
 .hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
   -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
@@ -760,6 +849,7 @@ body.home .fa-phone:before {
 
 /* Skew Backward */
 /* line 493, scss/partials/_hover-effects.scss */
+/* line 776, scss/style.scss */
 .hvr-skew-backward {
   display: inline-block;
   vertical-align: middle;
@@ -775,6 +865,7 @@ body.home .fa-phone:before {
 }
 
 /* line 506, scss/partials/_hover-effects.scss */
+/* line 791, scss/style.scss */
 .hvr-skew-backward:hover, .hvr-skew-backward:focus, .hvr-skew-backward:active {
   -webkit-transform: skew(10deg);
   transform: skew(10deg);
@@ -834,6 +925,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 564, scss/partials/_hover-effects.scss */
+/* line 850, scss/style.scss */
 .hvr-wobble-vertical {
   display: inline-block;
   vertical-align: middle;
@@ -843,6 +935,7 @@ body.home .fa-phone:before {
 }
 
 /* line 571, scss/partials/_hover-effects.scss */
+/* line 859, scss/style.scss */
 .hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
   -webkit-animation-name: hvr-wobble-vertical;
   animation-name: hvr-wobble-vertical;
@@ -908,6 +1001,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 635, scss/partials/_hover-effects.scss */
+/* line 924, scss/style.scss */
 .hvr-wobble-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -917,6 +1011,7 @@ body.home .fa-phone:before {
 }
 
 /* line 642, scss/partials/_hover-effects.scss */
+/* line 933, scss/style.scss */
 .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
   -webkit-animation-name: hvr-wobble-horizontal;
   animation-name: hvr-wobble-horizontal;
@@ -982,6 +1077,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 706, scss/partials/_hover-effects.scss */
+/* line 998, scss/style.scss */
 .hvr-wobble-to-bottom-right {
   display: inline-block;
   vertical-align: middle;
@@ -991,6 +1087,7 @@ body.home .fa-phone:before {
 }
 
 /* line 713, scss/partials/_hover-effects.scss */
+/* line 1007, scss/style.scss */
 .hvr-wobble-to-bottom-right:hover, .hvr-wobble-to-bottom-right:focus, .hvr-wobble-to-bottom-right:active {
   -webkit-animation-name: hvr-wobble-to-bottom-right;
   animation-name: hvr-wobble-to-bottom-right;
@@ -1056,6 +1153,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 777, scss/partials/_hover-effects.scss */
+/* line 1072, scss/style.scss */
 .hvr-wobble-to-top-right {
   display: inline-block;
   vertical-align: middle;
@@ -1065,6 +1163,7 @@ body.home .fa-phone:before {
 }
 
 /* line 784, scss/partials/_hover-effects.scss */
+/* line 1081, scss/style.scss */
 .hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
   -webkit-animation-name: hvr-wobble-to-top-right;
   animation-name: hvr-wobble-to-top-right;
@@ -1130,6 +1229,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 848, scss/partials/_hover-effects.scss */
+/* line 1146, scss/style.scss */
 .hvr-wobble-top {
   display: inline-block;
   vertical-align: middle;
@@ -1141,6 +1241,7 @@ body.home .fa-phone:before {
 }
 
 /* line 857, scss/partials/_hover-effects.scss */
+/* line 1157, scss/style.scss */
 .hvr-wobble-top:hover, .hvr-wobble-top:focus, .hvr-wobble-top:active {
   -webkit-animation-name: hvr-wobble-top;
   animation-name: hvr-wobble-top;
@@ -1206,6 +1307,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 921, scss/partials/_hover-effects.scss */
+/* line 1222, scss/style.scss */
 .hvr-wobble-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -1217,6 +1319,7 @@ body.home .fa-phone:before {
 }
 
 /* line 930, scss/partials/_hover-effects.scss */
+/* line 1233, scss/style.scss */
 .hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
   -webkit-animation-name: hvr-wobble-bottom;
   animation-name: hvr-wobble-bottom;
@@ -1282,6 +1385,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 994, scss/partials/_hover-effects.scss */
+/* line 1298, scss/style.scss */
 .hvr-wobble-skew {
   display: inline-block;
   vertical-align: middle;
@@ -1291,6 +1395,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1001, scss/partials/_hover-effects.scss */
+/* line 1307, scss/style.scss */
 .hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
   -webkit-animation-name: hvr-wobble-skew;
   animation-name: hvr-wobble-skew;
@@ -1324,6 +1429,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1033, scss/partials/_hover-effects.scss */
+/* line 1340, scss/style.scss */
 .hvr-buzz {
   display: inline-block;
   vertical-align: middle;
@@ -1333,6 +1439,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1040, scss/partials/_hover-effects.scss */
+/* line 1349, scss/style.scss */
 .hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
   -webkit-animation-name: hvr-buzz;
   animation-name: hvr-buzz;
@@ -1430,6 +1537,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1136, scss/partials/_hover-effects.scss */
+/* line 1446, scss/style.scss */
 .hvr-buzz-out {
   display: inline-block;
   vertical-align: middle;
@@ -1439,6 +1547,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1143, scss/partials/_hover-effects.scss */
+/* line 1455, scss/style.scss */
 .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
   -webkit-animation-name: hvr-buzz-out;
   animation-name: hvr-buzz-out;
@@ -1452,6 +1561,7 @@ body.home .fa-phone:before {
 
 /* Forward */
 /* line 1155, scss/partials/_hover-effects.scss */
+/* line 1468, scss/style.scss */
 .hvr-forward {
   display: inline-block;
   vertical-align: middle;
@@ -1465,6 +1575,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1166, scss/partials/_hover-effects.scss */
+/* line 1481, scss/style.scss */
 .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
   -webkit-transform: translateX(8px);
   transform: translateX(8px);
@@ -1472,6 +1583,7 @@ body.home .fa-phone:before {
 
 /* Backward */
 /* line 1172, scss/partials/_hover-effects.scss */
+/* line 1488, scss/style.scss */
 .hvr-backward {
   display: inline-block;
   vertical-align: middle;
@@ -1485,6 +1597,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1183, scss/partials/_hover-effects.scss */
+/* line 1501, scss/style.scss */
 .hvr-backward:hover, .hvr-backward:focus, .hvr-backward:active {
   -webkit-transform: translateX(-8px);
   transform: translateX(-8px);
@@ -1493,6 +1606,7 @@ body.home .fa-phone:before {
 /* BACKGROUND TRANSITIONS */
 /* Fade */
 /* line 1190, scss/partials/_hover-effects.scss */
+/* line 1509, scss/style.scss */
 .hvr-fade {
   display: inline-block;
   vertical-align: middle;
@@ -1507,6 +1621,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1202, scss/partials/_hover-effects.scss */
+/* line 1523, scss/style.scss */
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #2098D1;
   color: white;
@@ -1524,6 +1639,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1218, scss/partials/_hover-effects.scss */
+/* line 1540, scss/style.scss */
 .hvr-back-pulse {
   display: inline-block;
   vertical-align: middle;
@@ -1538,6 +1654,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1230, scss/partials/_hover-effects.scss */
+/* line 1554, scss/style.scss */
 .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
   -webkit-animation-name: hvr-back-pulse;
   animation-name: hvr-back-pulse;
@@ -1556,6 +1673,7 @@ body.home .fa-phone:before {
 
 /* Sweep To Right */
 /* line 1247, scss/partials/_hover-effects.scss */
+/* line 1572, scss/style.scss */
 .hvr-sweep-to-right {
   display: inline-block;
   vertical-align: middle;
@@ -1570,6 +1688,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1259, scss/partials/_hover-effects.scss */
+/* line 1586, scss/style.scss */
 .hvr-sweep-to-right:before {
   content: "";
   position: absolute;
@@ -1592,11 +1711,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1279, scss/partials/_hover-effects.scss */
+/* line 1608, scss/style.scss */
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
   color: white;
 }
 
 /* line 1282, scss/partials/_hover-effects.scss */
+/* line 1613, scss/style.scss */
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -1604,6 +1725,7 @@ body.home .fa-phone:before {
 
 /* Sweep To Left */
 /* line 1288, scss/partials/_hover-effects.scss */
+/* line 1620, scss/style.scss */
 .hvr-sweep-to-left {
   display: inline-block;
   vertical-align: middle;
@@ -1618,6 +1740,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1300, scss/partials/_hover-effects.scss */
+/* line 1634, scss/style.scss */
 .hvr-sweep-to-left:before {
   content: "";
   position: absolute;
@@ -1640,11 +1763,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1320, scss/partials/_hover-effects.scss */
+/* line 1656, scss/style.scss */
 .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
   color: white;
 }
 
 /* line 1323, scss/partials/_hover-effects.scss */
+/* line 1661, scss/style.scss */
 .hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -1652,6 +1777,7 @@ body.home .fa-phone:before {
 
 /* Sweep To Bottom */
 /* line 1329, scss/partials/_hover-effects.scss */
+/* line 1668, scss/style.scss */
 .hvr-sweep-to-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -1666,6 +1792,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1341, scss/partials/_hover-effects.scss */
+/* line 1682, scss/style.scss */
 .hvr-sweep-to-bottom:before {
   content: "";
   position: absolute;
@@ -1688,11 +1815,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1361, scss/partials/_hover-effects.scss */
+/* line 1704, scss/style.scss */
 .hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
   color: white;
 }
 
 /* line 1364, scss/partials/_hover-effects.scss */
+/* line 1709, scss/style.scss */
 .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -1700,6 +1829,7 @@ body.home .fa-phone:before {
 
 /* Sweep To Top */
 /* line 1370, scss/partials/_hover-effects.scss */
+/* line 1716, scss/style.scss */
 .hvr-sweep-to-top {
   display: inline-block;
   vertical-align: middle;
@@ -1714,6 +1844,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1382, scss/partials/_hover-effects.scss */
+/* line 1730, scss/style.scss */
 .hvr-sweep-to-top:before {
   content: "";
   position: absolute;
@@ -1736,11 +1867,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1402, scss/partials/_hover-effects.scss */
+/* line 1752, scss/style.scss */
 .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
   color: white;
 }
 
 /* line 1405, scss/partials/_hover-effects.scss */
+/* line 1757, scss/style.scss */
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -1748,6 +1881,7 @@ body.home .fa-phone:before {
 
 /* Bounce To Right */
 /* line 1411, scss/partials/_hover-effects.scss */
+/* line 1764, scss/style.scss */
 .hvr-bounce-to-right {
   display: inline-block;
   vertical-align: middle;
@@ -1762,6 +1896,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1423, scss/partials/_hover-effects.scss */
+/* line 1778, scss/style.scss */
 .hvr-bounce-to-right:before {
   content: "";
   position: absolute;
@@ -1784,11 +1919,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1443, scss/partials/_hover-effects.scss */
+/* line 1800, scss/style.scss */
 .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
   color: white;
 }
 
 /* line 1446, scss/partials/_hover-effects.scss */
+/* line 1805, scss/style.scss */
 .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -1798,6 +1935,7 @@ body.home .fa-phone:before {
 
 /* Bounce To Left */
 /* line 1454, scss/partials/_hover-effects.scss */
+/* line 1814, scss/style.scss */
 .hvr-bounce-to-left {
   display: inline-block;
   vertical-align: middle;
@@ -1812,6 +1950,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1466, scss/partials/_hover-effects.scss */
+/* line 1828, scss/style.scss */
 .hvr-bounce-to-left:before {
   content: "";
   position: absolute;
@@ -1834,11 +1973,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1486, scss/partials/_hover-effects.scss */
+/* line 1850, scss/style.scss */
 .hvr-bounce-to-left:hover, .hvr-bounce-to-left:focus, .hvr-bounce-to-left:active {
   color: white;
 }
 
 /* line 1489, scss/partials/_hover-effects.scss */
+/* line 1855, scss/style.scss */
 .hvr-bounce-to-left:hover:before, .hvr-bounce-to-left:focus:before, .hvr-bounce-to-left:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -1848,6 +1989,7 @@ body.home .fa-phone:before {
 
 /* Bounce To Bottom */
 /* line 1497, scss/partials/_hover-effects.scss */
+/* line 1864, scss/style.scss */
 .hvr-bounce-to-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -1862,6 +2004,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1509, scss/partials/_hover-effects.scss */
+/* line 1878, scss/style.scss */
 .hvr-bounce-to-bottom:before {
   content: "";
   position: absolute;
@@ -1884,11 +2027,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1529, scss/partials/_hover-effects.scss */
+/* line 1900, scss/style.scss */
 .hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
   color: white;
 }
 
 /* line 1532, scss/partials/_hover-effects.scss */
+/* line 1905, scss/style.scss */
 .hvr-bounce-to-bottom:hover:before, .hvr-bounce-to-bottom:focus:before, .hvr-bounce-to-bottom:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -1898,6 +2043,7 @@ body.home .fa-phone:before {
 
 /* Bounce To Top */
 /* line 1540, scss/partials/_hover-effects.scss */
+/* line 1914, scss/style.scss */
 .hvr-bounce-to-top {
   display: inline-block;
   vertical-align: middle;
@@ -1912,6 +2058,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1552, scss/partials/_hover-effects.scss */
+/* line 1928, scss/style.scss */
 .hvr-bounce-to-top:before {
   content: "";
   position: absolute;
@@ -1934,11 +2081,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1572, scss/partials/_hover-effects.scss */
+/* line 1950, scss/style.scss */
 .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
   color: white;
 }
 
 /* line 1575, scss/partials/_hover-effects.scss */
+/* line 1955, scss/style.scss */
 .hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -1948,6 +2097,7 @@ body.home .fa-phone:before {
 
 /* Radial Out */
 /* line 1583, scss/partials/_hover-effects.scss */
+/* line 1964, scss/style.scss */
 .hvr-radial-out {
   display: inline-block;
   vertical-align: middle;
@@ -1964,6 +2114,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1597, scss/partials/_hover-effects.scss */
+/* line 1980, scss/style.scss */
 .hvr-radial-out:before {
   content: "";
   position: absolute;
@@ -1985,11 +2136,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1616, scss/partials/_hover-effects.scss */
+/* line 2001, scss/style.scss */
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
   color: white;
 }
 
 /* line 1619, scss/partials/_hover-effects.scss */
+/* line 2006, scss/style.scss */
 .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
   -webkit-transform: scale(2);
   transform: scale(2);
@@ -1997,6 +2150,7 @@ body.home .fa-phone:before {
 
 /* Radial In */
 /* line 1625, scss/partials/_hover-effects.scss */
+/* line 2013, scss/style.scss */
 .hvr-radial-in {
   display: inline-block;
   vertical-align: middle;
@@ -2013,6 +2167,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1639, scss/partials/_hover-effects.scss */
+/* line 2029, scss/style.scss */
 .hvr-radial-in:before {
   content: "";
   position: absolute;
@@ -2034,11 +2189,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1658, scss/partials/_hover-effects.scss */
+/* line 2050, scss/style.scss */
 .hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {
   color: white;
 }
 
 /* line 1661, scss/partials/_hover-effects.scss */
+/* line 2055, scss/style.scss */
 .hvr-radial-in:hover:before, .hvr-radial-in:focus:before, .hvr-radial-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -2046,6 +2203,7 @@ body.home .fa-phone:before {
 
 /* Rectangle In */
 /* line 1667, scss/partials/_hover-effects.scss */
+/* line 2062, scss/style.scss */
 .hvr-rectangle-in {
   display: inline-block;
   vertical-align: middle;
@@ -2061,6 +2219,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1680, scss/partials/_hover-effects.scss */
+/* line 2077, scss/style.scss */
 .hvr-rectangle-in:before {
   content: "";
   position: absolute;
@@ -2081,11 +2240,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1698, scss/partials/_hover-effects.scss */
+/* line 2097, scss/style.scss */
 .hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
   color: white;
 }
 
 /* line 1701, scss/partials/_hover-effects.scss */
+/* line 2102, scss/style.scss */
 .hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -2093,6 +2254,7 @@ body.home .fa-phone:before {
 
 /* Rectangle Out */
 /* line 1707, scss/partials/_hover-effects.scss */
+/* line 2109, scss/style.scss */
 .hvr-rectangle-out {
   display: inline-block;
   vertical-align: middle;
@@ -2108,6 +2270,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1720, scss/partials/_hover-effects.scss */
+/* line 2124, scss/style.scss */
 .hvr-rectangle-out:before {
   content: "";
   position: absolute;
@@ -2128,11 +2291,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1738, scss/partials/_hover-effects.scss */
+/* line 2144, scss/style.scss */
 .hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
   color: white;
 }
 
 /* line 1741, scss/partials/_hover-effects.scss */
+/* line 2149, scss/style.scss */
 .hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -2140,6 +2305,7 @@ body.home .fa-phone:before {
 
 /* Shutter In Horizontal */
 /* line 1747, scss/partials/_hover-effects.scss */
+/* line 2156, scss/style.scss */
 .hvr-shutter-in-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -2155,6 +2321,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1760, scss/partials/_hover-effects.scss */
+/* line 2171, scss/style.scss */
 .hvr-shutter-in-horizontal:before {
   content: "";
   position: absolute;
@@ -2177,11 +2344,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1780, scss/partials/_hover-effects.scss */
+/* line 2193, scss/style.scss */
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
   color: white;
 }
 
 /* line 1783, scss/partials/_hover-effects.scss */
+/* line 2198, scss/style.scss */
 .hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -2189,6 +2358,7 @@ body.home .fa-phone:before {
 
 /* Shutter Out Horizontal */
 /* line 1789, scss/partials/_hover-effects.scss */
+/* line 2205, scss/style.scss */
 .hvr-shutter-out-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -2204,6 +2374,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1802, scss/partials/_hover-effects.scss */
+/* line 2220, scss/style.scss */
 .hvr-shutter-out-horizontal:before {
   content: "";
   position: absolute;
@@ -2226,11 +2397,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1822, scss/partials/_hover-effects.scss */
+/* line 2242, scss/style.scss */
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
   color: white;
 }
 
 /* line 1825, scss/partials/_hover-effects.scss */
+/* line 2247, scss/style.scss */
 .hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -2238,6 +2411,7 @@ body.home .fa-phone:before {
 
 /* Shutter In Vertical */
 /* line 1831, scss/partials/_hover-effects.scss */
+/* line 2254, scss/style.scss */
 .hvr-shutter-in-vertical {
   display: inline-block;
   vertical-align: middle;
@@ -2253,6 +2427,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1844, scss/partials/_hover-effects.scss */
+/* line 2269, scss/style.scss */
 .hvr-shutter-in-vertical:before {
   content: "";
   position: absolute;
@@ -2275,11 +2450,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1864, scss/partials/_hover-effects.scss */
+/* line 2291, scss/style.scss */
 .hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {
   color: white;
 }
 
 /* line 1867, scss/partials/_hover-effects.scss */
+/* line 2296, scss/style.scss */
 .hvr-shutter-in-vertical:hover:before, .hvr-shutter-in-vertical:focus:before, .hvr-shutter-in-vertical:active:before {
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
@@ -2287,6 +2464,7 @@ body.home .fa-phone:before {
 
 /* Shutter Out Vertical */
 /* line 1873, scss/partials/_hover-effects.scss */
+/* line 2303, scss/style.scss */
 .hvr-shutter-out-vertical {
   display: inline-block;
   vertical-align: middle;
@@ -2302,6 +2480,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1886, scss/partials/_hover-effects.scss */
+/* line 2318, scss/style.scss */
 .hvr-shutter-out-vertical:before {
   content: "";
   position: absolute;
@@ -2324,11 +2503,13 @@ body.home .fa-phone:before {
 }
 
 /* line 1906, scss/partials/_hover-effects.scss */
+/* line 2340, scss/style.scss */
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
   color: white;
 }
 
 /* line 1909, scss/partials/_hover-effects.scss */
+/* line 2345, scss/style.scss */
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
@@ -2337,6 +2518,7 @@ body.home .fa-phone:before {
 /* BORDER TRANSITIONS */
 /* Border Fade */
 /* line 1916, scss/partials/_hover-effects.scss */
+/* line 2353, scss/style.scss */
 .hvr-border-fade {
   display: inline-block;
   vertical-align: middle;
@@ -2352,6 +2534,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1929, scss/partials/_hover-effects.scss */
+/* line 2368, scss/style.scss */
 .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
   box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px transparent;
   /* Hack to improve aliasing on mobile/tablet devices */
@@ -2359,6 +2542,7 @@ body.home .fa-phone:before {
 
 /* Hollow */
 /* line 1935, scss/partials/_hover-effects.scss */
+/* line 2375, scss/style.scss */
 .hvr-hollow {
   display: inline-block;
   vertical-align: middle;
@@ -2374,12 +2558,14 @@ body.home .fa-phone:before {
 }
 
 /* line 1948, scss/partials/_hover-effects.scss */
+/* line 2390, scss/style.scss */
 .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
   background: none;
 }
 
 /* Trim */
 /* line 1953, scss/partials/_hover-effects.scss */
+/* line 2396, scss/style.scss */
 .hvr-trim {
   display: inline-block;
   vertical-align: middle;
@@ -2390,6 +2576,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1961, scss/partials/_hover-effects.scss */
+/* line 2406, scss/style.scss */
 .hvr-trim:before {
   content: '';
   position: absolute;
@@ -2406,6 +2593,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1975, scss/partials/_hover-effects.scss */
+/* line 2422, scss/style.scss */
 .hvr-trim:hover:before, .hvr-trim:focus:before, .hvr-trim:active:before {
   opacity: 1;
 }
@@ -2430,6 +2618,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1998, scss/partials/_hover-effects.scss */
+/* line 2446, scss/style.scss */
 .hvr-ripple-out {
   display: inline-block;
   vertical-align: middle;
@@ -2440,6 +2629,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2006, scss/partials/_hover-effects.scss */
+/* line 2456, scss/style.scss */
 .hvr-ripple-out:before {
   content: '';
   position: absolute;
@@ -2453,6 +2643,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2017, scss/partials/_hover-effects.scss */
+/* line 2469, scss/style.scss */
 .hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
   -webkit-animation-name: hvr-ripple-out;
   animation-name: hvr-ripple-out;
@@ -2478,6 +2669,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 2041, scss/partials/_hover-effects.scss */
+/* line 2494, scss/style.scss */
 .hvr-ripple-in {
   display: inline-block;
   vertical-align: middle;
@@ -2488,6 +2680,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2049, scss/partials/_hover-effects.scss */
+/* line 2504, scss/style.scss */
 .hvr-ripple-in:before {
   content: '';
   position: absolute;
@@ -2502,6 +2695,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2061, scss/partials/_hover-effects.scss */
+/* line 2518, scss/style.scss */
 .hvr-ripple-in:hover:before, .hvr-ripple-in:focus:before, .hvr-ripple-in:active:before {
   -webkit-animation-name: hvr-ripple-in;
   animation-name: hvr-ripple-in;
@@ -2509,6 +2703,7 @@ body.home .fa-phone:before {
 
 /* Outline Out */
 /* line 2067, scss/partials/_hover-effects.scss */
+/* line 2525, scss/style.scss */
 .hvr-outline-out {
   display: inline-block;
   vertical-align: middle;
@@ -2519,6 +2714,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2075, scss/partials/_hover-effects.scss */
+/* line 2535, scss/style.scss */
 .hvr-outline-out:before {
   content: '';
   position: absolute;
@@ -2534,6 +2730,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2088, scss/partials/_hover-effects.scss */
+/* line 2550, scss/style.scss */
 .hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
   top: -8px;
   right: -8px;
@@ -2543,6 +2740,7 @@ body.home .fa-phone:before {
 
 /* Outline In */
 /* line 2096, scss/partials/_hover-effects.scss */
+/* line 2559, scss/style.scss */
 .hvr-outline-in {
   display: inline-block;
   vertical-align: middle;
@@ -2553,6 +2751,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2104, scss/partials/_hover-effects.scss */
+/* line 2569, scss/style.scss */
 .hvr-outline-in:before {
   pointer-events: none;
   content: '';
@@ -2570,6 +2769,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2119, scss/partials/_hover-effects.scss */
+/* line 2586, scss/style.scss */
 .hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
   top: -8px;
   right: -8px;
@@ -2580,6 +2780,7 @@ body.home .fa-phone:before {
 
 /* Round Corners */
 /* line 2128, scss/partials/_hover-effects.scss */
+/* line 2596, scss/style.scss */
 .hvr-round-corners {
   display: inline-block;
   vertical-align: middle;
@@ -2593,12 +2794,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2139, scss/partials/_hover-effects.scss */
+/* line 2609, scss/style.scss */
 .hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
   border-radius: 1em;
 }
 
 /* Underline From Left */
 /* line 2144, scss/partials/_hover-effects.scss */
+/* line 2615, scss/style.scss */
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -2610,6 +2813,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2153, scss/partials/_hover-effects.scss */
+/* line 2626, scss/style.scss */
 .hvr-underline-from-left:before {
   content: "";
   position: absolute;
@@ -2628,12 +2832,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2169, scss/partials/_hover-effects.scss */
+/* line 2644, scss/style.scss */
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
 }
 
 /* Underline From Center */
 /* line 2174, scss/partials/_hover-effects.scss */
+/* line 2650, scss/style.scss */
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -2645,6 +2851,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2183, scss/partials/_hover-effects.scss */
+/* line 2661, scss/style.scss */
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -2663,6 +2870,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2199, scss/partials/_hover-effects.scss */
+/* line 2679, scss/style.scss */
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
@@ -2670,6 +2878,7 @@ body.home .fa-phone:before {
 
 /* Underline From Right */
 /* line 2205, scss/partials/_hover-effects.scss */
+/* line 2686, scss/style.scss */
 .hvr-underline-from-right {
   display: inline-block;
   vertical-align: middle;
@@ -2681,6 +2890,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2214, scss/partials/_hover-effects.scss */
+/* line 2697, scss/style.scss */
 .hvr-underline-from-right:before {
   content: "";
   position: absolute;
@@ -2699,12 +2909,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2230, scss/partials/_hover-effects.scss */
+/* line 2715, scss/style.scss */
 .hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
   left: 0;
 }
 
 /* Overline From Left */
 /* line 2235, scss/partials/_hover-effects.scss */
+/* line 2721, scss/style.scss */
 .hvr-overline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -2716,6 +2928,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2244, scss/partials/_hover-effects.scss */
+/* line 2732, scss/style.scss */
 .hvr-overline-from-left:before {
   content: "";
   position: absolute;
@@ -2734,12 +2947,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2260, scss/partials/_hover-effects.scss */
+/* line 2750, scss/style.scss */
 .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
   right: 0;
 }
 
 /* Overline From Center */
 /* line 2265, scss/partials/_hover-effects.scss */
+/* line 2756, scss/style.scss */
 .hvr-overline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -2751,6 +2966,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2274, scss/partials/_hover-effects.scss */
+/* line 2767, scss/style.scss */
 .hvr-overline-from-center:before {
   content: "";
   position: absolute;
@@ -2769,6 +2985,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2290, scss/partials/_hover-effects.scss */
+/* line 2785, scss/style.scss */
 .hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
   left: 0;
   right: 0;
@@ -2776,6 +2993,7 @@ body.home .fa-phone:before {
 
 /* Overline From Right */
 /* line 2296, scss/partials/_hover-effects.scss */
+/* line 2792, scss/style.scss */
 .hvr-overline-from-right {
   display: inline-block;
   vertical-align: middle;
@@ -2787,6 +3005,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2305, scss/partials/_hover-effects.scss */
+/* line 2803, scss/style.scss */
 .hvr-overline-from-right:before {
   content: "";
   position: absolute;
@@ -2805,12 +3024,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2321, scss/partials/_hover-effects.scss */
+/* line 2821, scss/style.scss */
 .hvr-overline-from-right:hover:before, .hvr-overline-from-right:focus:before, .hvr-overline-from-right:active:before {
   left: 0;
 }
 
 /* Reveal */
 /* line 2326, scss/partials/_hover-effects.scss */
+/* line 2827, scss/style.scss */
 .hvr-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -2822,6 +3043,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2335, scss/partials/_hover-effects.scss */
+/* line 2838, scss/style.scss */
 .hvr-reveal:before {
   content: "";
   position: absolute;
@@ -2842,6 +3064,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2353, scss/partials/_hover-effects.scss */
+/* line 2858, scss/style.scss */
 .hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -2850,6 +3073,7 @@ body.home .fa-phone:before {
 
 /* Underline Reveal */
 /* line 2360, scss/partials/_hover-effects.scss */
+/* line 2866, scss/style.scss */
 .hvr-underline-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -2861,6 +3085,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2369, scss/partials/_hover-effects.scss */
+/* line 2877, scss/style.scss */
 .hvr-underline-reveal:before {
   content: "";
   position: absolute;
@@ -2881,6 +3106,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2387, scss/partials/_hover-effects.scss */
+/* line 2897, scss/style.scss */
 .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -2888,6 +3114,7 @@ body.home .fa-phone:before {
 
 /* Overline Reveal */
 /* line 2393, scss/partials/_hover-effects.scss */
+/* line 2904, scss/style.scss */
 .hvr-overline-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -2899,6 +3126,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2402, scss/partials/_hover-effects.scss */
+/* line 2915, scss/style.scss */
 .hvr-overline-reveal:before {
   content: "";
   position: absolute;
@@ -2919,6 +3147,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2420, scss/partials/_hover-effects.scss */
+/* line 2935, scss/style.scss */
 .hvr-overline-reveal:hover:before, .hvr-overline-reveal:focus:before, .hvr-overline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -2927,6 +3156,7 @@ body.home .fa-phone:before {
 /* SHADOW/GLOW TRANSITIONS */
 /* Glow */
 /* line 2427, scss/partials/_hover-effects.scss */
+/* line 2943, scss/style.scss */
 .hvr-glow {
   display: inline-block;
   vertical-align: middle;
@@ -2940,12 +3170,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2438, scss/partials/_hover-effects.scss */
+/* line 2956, scss/style.scss */
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Shadow */
 /* line 2443, scss/partials/_hover-effects.scss */
+/* line 2962, scss/style.scss */
 .hvr-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -2959,12 +3191,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2454, scss/partials/_hover-effects.scss */
+/* line 2975, scss/style.scss */
 .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
 /* Grow Shadow */
 /* line 2459, scss/partials/_hover-effects.scss */
+/* line 2981, scss/style.scss */
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -2978,6 +3212,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2470, scss/partials/_hover-effects.scss */
+/* line 2994, scss/style.scss */
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
@@ -2986,6 +3221,7 @@ body.home .fa-phone:before {
 
 /* Box Shadow Outset */
 /* line 2477, scss/partials/_hover-effects.scss */
+/* line 3002, scss/style.scss */
 .hvr-box-shadow-outset {
   display: inline-block;
   vertical-align: middle;
@@ -2999,12 +3235,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2488, scss/partials/_hover-effects.scss */
+/* line 3015, scss/style.scss */
 .hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 /* Box Shadow Inset */
 /* line 2493, scss/partials/_hover-effects.scss */
+/* line 3021, scss/style.scss */
 .hvr-box-shadow-inset {
   display: inline-block;
   vertical-align: middle;
@@ -3020,6 +3258,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2506, scss/partials/_hover-effects.scss */
+/* line 3036, scss/style.scss */
 .hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {
   box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px transparent;
   /* Hack to improve aliasing on mobile/tablet devices */
@@ -3027,6 +3266,7 @@ body.home .fa-phone:before {
 
 /* Float Shadow */
 /* line 2512, scss/partials/_hover-effects.scss */
+/* line 3043, scss/style.scss */
 .hvr-float-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -3041,6 +3281,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2524, scss/partials/_hover-effects.scss */
+/* line 3057, scss/style.scss */
 .hvr-float-shadow:before {
   pointer-events: none;
   position: absolute;
@@ -3061,6 +3302,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2542, scss/partials/_hover-effects.scss */
+/* line 3077, scss/style.scss */
 .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
@@ -3068,6 +3310,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2547, scss/partials/_hover-effects.scss */
+/* line 3084, scss/style.scss */
 .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
@@ -3077,6 +3320,7 @@ body.home .fa-phone:before {
 
 /* Shadow Radial */
 /* line 2555, scss/partials/_hover-effects.scss */
+/* line 3093, scss/style.scss */
 .hvr-shadow-radial {
   display: inline-block;
   vertical-align: middle;
@@ -3087,6 +3331,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2563, scss/partials/_hover-effects.scss */
+/* line 3103, scss/style.scss */
 .hvr-shadow-radial:before, .hvr-shadow-radial:after {
   pointer-events: none;
   position: absolute;
@@ -3104,6 +3349,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2578, scss/partials/_hover-effects.scss */
+/* line 3120, scss/style.scss */
 .hvr-shadow-radial:before {
   bottom: 100%;
   background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
@@ -3111,6 +3357,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2583, scss/partials/_hover-effects.scss */
+/* line 3127, scss/style.scss */
 .hvr-shadow-radial:after {
   top: 100%;
   background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
@@ -3118,6 +3365,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2588, scss/partials/_hover-effects.scss */
+/* line 3134, scss/style.scss */
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1;
 }
@@ -3125,6 +3373,7 @@ body.home .fa-phone:before {
 /* SPEECH BUBBLES */
 /* Bubble Top */
 /* line 2594, scss/partials/_hover-effects.scss */
+/* line 3141, scss/style.scss */
 .hvr-bubble-top {
   display: inline-block;
   vertical-align: middle;
@@ -3135,6 +3384,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2602, scss/partials/_hover-effects.scss */
+/* line 3151, scss/style.scss */
 .hvr-bubble-top:before {
   pointer-events: none;
   position: absolute;
@@ -3152,6 +3402,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2617, scss/partials/_hover-effects.scss */
+/* line 3168, scss/style.scss */
 .hvr-bubble-top:hover:before, .hvr-bubble-top:focus:before, .hvr-bubble-top:active:before {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
@@ -3159,6 +3410,7 @@ body.home .fa-phone:before {
 
 /* Bubble Right */
 /* line 2623, scss/partials/_hover-effects.scss */
+/* line 3175, scss/style.scss */
 .hvr-bubble-right {
   display: inline-block;
   vertical-align: middle;
@@ -3169,6 +3421,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2631, scss/partials/_hover-effects.scss */
+/* line 3185, scss/style.scss */
 .hvr-bubble-right:before {
   pointer-events: none;
   position: absolute;
@@ -3186,6 +3439,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2646, scss/partials/_hover-effects.scss */
+/* line 3202, scss/style.scss */
 .hvr-bubble-right:hover:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:active:before {
   -webkit-transform: translateX(10px);
   transform: translateX(10px);
@@ -3193,6 +3447,7 @@ body.home .fa-phone:before {
 
 /* Bubble Bottom */
 /* line 2652, scss/partials/_hover-effects.scss */
+/* line 3209, scss/style.scss */
 .hvr-bubble-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -3203,6 +3458,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2660, scss/partials/_hover-effects.scss */
+/* line 3219, scss/style.scss */
 .hvr-bubble-bottom:before {
   pointer-events: none;
   position: absolute;
@@ -3220,6 +3476,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2675, scss/partials/_hover-effects.scss */
+/* line 3236, scss/style.scss */
 .hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
@@ -3227,6 +3484,7 @@ body.home .fa-phone:before {
 
 /* Bubble Left */
 /* line 2681, scss/partials/_hover-effects.scss */
+/* line 3243, scss/style.scss */
 .hvr-bubble-left {
   display: inline-block;
   vertical-align: middle;
@@ -3237,6 +3495,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2689, scss/partials/_hover-effects.scss */
+/* line 3253, scss/style.scss */
 .hvr-bubble-left:before {
   pointer-events: none;
   position: absolute;
@@ -3254,6 +3513,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2704, scss/partials/_hover-effects.scss */
+/* line 3270, scss/style.scss */
 .hvr-bubble-left:hover:before, .hvr-bubble-left:focus:before, .hvr-bubble-left:active:before {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px);
@@ -3261,6 +3521,7 @@ body.home .fa-phone:before {
 
 /* Bubble Float Top */
 /* line 2710, scss/partials/_hover-effects.scss */
+/* line 3277, scss/style.scss */
 .hvr-bubble-float-top {
   display: inline-block;
   vertical-align: middle;
@@ -3275,6 +3536,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2722, scss/partials/_hover-effects.scss */
+/* line 3291, scss/style.scss */
 .hvr-bubble-float-top:before {
   position: absolute;
   z-index: -1;
@@ -3291,12 +3553,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2736, scss/partials/_hover-effects.scss */
+/* line 3307, scss/style.scss */
 .hvr-bubble-float-top:hover, .hvr-bubble-float-top:focus, .hvr-bubble-float-top:active {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
 }
 
 /* line 2740, scss/partials/_hover-effects.scss */
+/* line 3313, scss/style.scss */
 .hvr-bubble-float-top:hover:before, .hvr-bubble-float-top:focus:before, .hvr-bubble-float-top:active:before {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
@@ -3304,6 +3568,7 @@ body.home .fa-phone:before {
 
 /* Bubble Float Right */
 /* line 2746, scss/partials/_hover-effects.scss */
+/* line 3320, scss/style.scss */
 .hvr-bubble-float-right {
   display: inline-block;
   vertical-align: middle;
@@ -3318,6 +3583,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2758, scss/partials/_hover-effects.scss */
+/* line 3334, scss/style.scss */
 .hvr-bubble-float-right:before {
   position: absolute;
   z-index: -1;
@@ -3334,12 +3600,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2772, scss/partials/_hover-effects.scss */
+/* line 3350, scss/style.scss */
 .hvr-bubble-float-right:hover, .hvr-bubble-float-right:focus, .hvr-bubble-float-right:active {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px);
 }
 
 /* line 2776, scss/partials/_hover-effects.scss */
+/* line 3356, scss/style.scss */
 .hvr-bubble-float-right:hover:before, .hvr-bubble-float-right:focus:before, .hvr-bubble-float-right:active:before {
   -webkit-transform: translateX(10px);
   transform: translateX(10px);
@@ -3347,6 +3615,7 @@ body.home .fa-phone:before {
 
 /* Bubble Float Bottom */
 /* line 2782, scss/partials/_hover-effects.scss */
+/* line 3363, scss/style.scss */
 .hvr-bubble-float-bottom {
   display: inline-block;
   vertical-align: middle;
@@ -3361,6 +3630,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2794, scss/partials/_hover-effects.scss */
+/* line 3377, scss/style.scss */
 .hvr-bubble-float-bottom:before {
   position: absolute;
   z-index: -1;
@@ -3377,12 +3647,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2808, scss/partials/_hover-effects.scss */
+/* line 3393, scss/style.scss */
 .hvr-bubble-float-bottom:hover, .hvr-bubble-float-bottom:focus, .hvr-bubble-float-bottom:active {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
 
 /* line 2812, scss/partials/_hover-effects.scss */
+/* line 3399, scss/style.scss */
 .hvr-bubble-float-bottom:hover:before, .hvr-bubble-float-bottom:focus:before, .hvr-bubble-float-bottom:active:before {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);
@@ -3390,6 +3662,7 @@ body.home .fa-phone:before {
 
 /* Bubble Float Left */
 /* line 2818, scss/partials/_hover-effects.scss */
+/* line 3406, scss/style.scss */
 .hvr-bubble-float-left {
   display: inline-block;
   vertical-align: middle;
@@ -3404,6 +3677,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2830, scss/partials/_hover-effects.scss */
+/* line 3420, scss/style.scss */
 .hvr-bubble-float-left:before {
   position: absolute;
   z-index: -1;
@@ -3420,12 +3694,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2844, scss/partials/_hover-effects.scss */
+/* line 3436, scss/style.scss */
 .hvr-bubble-float-left:hover, .hvr-bubble-float-left:focus, .hvr-bubble-float-left:active {
   -webkit-transform: translateX(10px);
   transform: translateX(10px);
 }
 
 /* line 2848, scss/partials/_hover-effects.scss */
+/* line 3442, scss/style.scss */
 .hvr-bubble-float-left:hover:before, .hvr-bubble-float-left:focus:before, .hvr-bubble-float-left:active:before {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px);
@@ -3434,6 +3710,7 @@ body.home .fa-phone:before {
 /* ICONS */
 /* Icon Back */
 /* line 2855, scss/partials/_hover-effects.scss */
+/* line 3450, scss/style.scss */
 .hvr-icon-back {
   display: inline-block;
   vertical-align: middle;
@@ -3445,6 +3722,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2864, scss/partials/_hover-effects.scss */
+/* line 3461, scss/style.scss */
 .hvr-icon-back .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3457,6 +3735,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2874, scss/partials/_hover-effects.scss */
+/* line 3473, scss/style.scss */
 .hvr-icon-back:hover .hvr-icon, .hvr-icon-back:focus .hvr-icon, .hvr-icon-back:active .hvr-icon {
   -webkit-transform: translateX(-4px);
   transform: translateX(-4px);
@@ -3464,6 +3743,7 @@ body.home .fa-phone:before {
 
 /* Icon Forward */
 /* line 2880, scss/partials/_hover-effects.scss */
+/* line 3480, scss/style.scss */
 .hvr-icon-forward {
   display: inline-block;
   vertical-align: middle;
@@ -3475,6 +3755,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2889, scss/partials/_hover-effects.scss */
+/* line 3491, scss/style.scss */
 .hvr-icon-forward .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3487,6 +3768,7 @@ body.home .fa-phone:before {
 }
 
 /* line 2899, scss/partials/_hover-effects.scss */
+/* line 3503, scss/style.scss */
 .hvr-icon-forward:hover .hvr-icon, .hvr-icon-forward:focus .hvr-icon, .hvr-icon-forward:active .hvr-icon {
   -webkit-transform: translateX(4px);
   transform: translateX(4px);
@@ -3521,6 +3803,7 @@ body.home .fa-phone:before {
 }
 /* Icon Down */
 /* line 2932, scss/partials/_hover-effects.scss */
+/* line 3537, scss/style.scss */
 .hvr-icon-down {
   display: inline-block;
   vertical-align: middle;
@@ -3530,12 +3813,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2939, scss/partials/_hover-effects.scss */
+/* line 3546, scss/style.scss */
 .hvr-icon-down .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 2943, scss/partials/_hover-effects.scss */
+/* line 3552, scss/style.scss */
 .hvr-icon-down:hover .hvr-icon, .hvr-icon-down:focus .hvr-icon, .hvr-icon-down:active .hvr-icon {
   -webkit-animation-name: hvr-icon-down;
   animation-name: hvr-icon-down;
@@ -3574,6 +3859,7 @@ body.home .fa-phone:before {
 }
 /* Icon Up */
 /* line 2980, scss/partials/_hover-effects.scss */
+/* line 3590, scss/style.scss */
 .hvr-icon-up {
   display: inline-block;
   vertical-align: middle;
@@ -3583,12 +3869,14 @@ body.home .fa-phone:before {
 }
 
 /* line 2987, scss/partials/_hover-effects.scss */
+/* line 3599, scss/style.scss */
 .hvr-icon-up .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 2991, scss/partials/_hover-effects.scss */
+/* line 3605, scss/style.scss */
 .hvr-icon-up:hover .hvr-icon, .hvr-icon-up:focus .hvr-icon, .hvr-icon-up:active .hvr-icon {
   -webkit-animation-name: hvr-icon-up;
   animation-name: hvr-icon-up;
@@ -3600,6 +3888,7 @@ body.home .fa-phone:before {
 
 /* Icon Spin */
 /* line 3001, scss/partials/_hover-effects.scss */
+/* line 3616, scss/style.scss */
 .hvr-icon-spin {
   display: inline-block;
   vertical-align: middle;
@@ -3609,6 +3898,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3008, scss/partials/_hover-effects.scss */
+/* line 3625, scss/style.scss */
 .hvr-icon-spin .hvr-icon {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
@@ -3619,6 +3909,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3016, scss/partials/_hover-effects.scss */
+/* line 3635, scss/style.scss */
 .hvr-icon-spin:hover .hvr-icon, .hvr-icon-spin:focus .hvr-icon, .hvr-icon-spin:active .hvr-icon {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -3655,6 +3946,7 @@ body.home .fa-phone:before {
 }
 /* Icon Drop */
 /* line 3051, scss/partials/_hover-effects.scss */
+/* line 3671, scss/style.scss */
 .hvr-icon-drop {
   display: inline-block;
   vertical-align: middle;
@@ -3664,12 +3956,14 @@ body.home .fa-phone:before {
 }
 
 /* line 3058, scss/partials/_hover-effects.scss */
+/* line 3680, scss/style.scss */
 .hvr-icon-drop .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 3062, scss/partials/_hover-effects.scss */
+/* line 3686, scss/style.scss */
 .hvr-icon-drop:hover .hvr-icon, .hvr-icon-drop:focus .hvr-icon, .hvr-icon-drop:active .hvr-icon {
   opacity: 0;
   -webkit-transition-duration: 0.3s;
@@ -3690,6 +3984,7 @@ body.home .fa-phone:before {
 
 /* Icon Fade */
 /* line 3081, scss/partials/_hover-effects.scss */
+/* line 3706, scss/style.scss */
 .hvr-icon-fade {
   display: inline-block;
   vertical-align: middle;
@@ -3699,6 +3994,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3088, scss/partials/_hover-effects.scss */
+/* line 3715, scss/style.scss */
 .hvr-icon-fade .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3709,6 +4005,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3096, scss/partials/_hover-effects.scss */
+/* line 3725, scss/style.scss */
 .hvr-icon-fade:hover .hvr-icon, .hvr-icon-fade:focus .hvr-icon, .hvr-icon-fade:active .hvr-icon {
   color: #0F9E5E;
 }
@@ -3736,6 +4033,7 @@ body.home .fa-phone:before {
 }
 /* Icon Float Away */
 /* line 3122, scss/partials/_hover-effects.scss */
+/* line 3752, scss/style.scss */
 .hvr-icon-float-away {
   display: inline-block;
   vertical-align: middle;
@@ -3745,6 +4043,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3129, scss/partials/_hover-effects.scss */
+/* line 3761, scss/style.scss */
 .hvr-icon-float-away .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3755,6 +4054,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3137, scss/partials/_hover-effects.scss */
+/* line 3771, scss/style.scss */
 .hvr-icon-float-away:hover .hvr-icon, .hvr-icon-float-away:focus .hvr-icon, .hvr-icon-float-away:active .hvr-icon {
   -webkit-animation-name: hvr-icon-float-away;
   animation-name: hvr-icon-float-away;
@@ -3785,6 +4085,7 @@ body.home .fa-phone:before {
 }
 /* Icon Sink Away */
 /* line 3166, scss/partials/_hover-effects.scss */
+/* line 3801, scss/style.scss */
 .hvr-icon-sink-away {
   display: inline-block;
   vertical-align: middle;
@@ -3794,6 +4095,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3173, scss/partials/_hover-effects.scss */
+/* line 3810, scss/style.scss */
 .hvr-icon-sink-away .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3804,6 +4106,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3181, scss/partials/_hover-effects.scss */
+/* line 3820, scss/style.scss */
 .hvr-icon-sink-away:hover .hvr-icon, .hvr-icon-sink-away:focus .hvr-icon, .hvr-icon-sink-away:active .hvr-icon {
   -webkit-animation-name: hvr-icon-sink-away;
   animation-name: hvr-icon-sink-away;
@@ -3813,6 +4116,7 @@ body.home .fa-phone:before {
 
 /* Icon Grow */
 /* line 3189, scss/partials/_hover-effects.scss */
+/* line 3829, scss/style.scss */
 .hvr-icon-grow {
   display: inline-block;
   vertical-align: middle;
@@ -3824,6 +4128,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3198, scss/partials/_hover-effects.scss */
+/* line 3840, scss/style.scss */
 .hvr-icon-grow .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3836,6 +4141,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3208, scss/partials/_hover-effects.scss */
+/* line 3852, scss/style.scss */
 .hvr-icon-grow:hover .hvr-icon, .hvr-icon-grow:focus .hvr-icon, .hvr-icon-grow:active .hvr-icon {
   -webkit-transform: scale(1.3) translateZ(0);
   transform: scale(1.3) translateZ(0);
@@ -3843,6 +4149,7 @@ body.home .fa-phone:before {
 
 /* Icon Shrink */
 /* line 3214, scss/partials/_hover-effects.scss */
+/* line 3859, scss/style.scss */
 .hvr-icon-shrink {
   display: inline-block;
   vertical-align: middle;
@@ -3854,6 +4161,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3223, scss/partials/_hover-effects.scss */
+/* line 3870, scss/style.scss */
 .hvr-icon-shrink .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3866,6 +4174,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3233, scss/partials/_hover-effects.scss */
+/* line 3882, scss/style.scss */
 .hvr-icon-shrink:hover .hvr-icon, .hvr-icon-shrink:focus .hvr-icon, .hvr-icon-shrink:active .hvr-icon {
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
@@ -3893,6 +4202,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3259, scss/partials/_hover-effects.scss */
+/* line 3909, scss/style.scss */
 .hvr-icon-pulse {
   display: inline-block;
   vertical-align: middle;
@@ -3902,6 +4212,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3266, scss/partials/_hover-effects.scss */
+/* line 3918, scss/style.scss */
 .hvr-icon-pulse .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3910,6 +4221,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3272, scss/partials/_hover-effects.scss */
+/* line 3926, scss/style.scss */
 .hvr-icon-pulse:hover .hvr-icon, .hvr-icon-pulse:focus .hvr-icon, .hvr-icon-pulse:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pulse;
   animation-name: hvr-icon-pulse;
@@ -3935,6 +4247,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3296, scss/partials/_hover-effects.scss */
+/* line 3951, scss/style.scss */
 .hvr-icon-pulse-grow {
   display: inline-block;
   vertical-align: middle;
@@ -3944,6 +4257,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3303, scss/partials/_hover-effects.scss */
+/* line 3960, scss/style.scss */
 .hvr-icon-pulse-grow .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3952,6 +4266,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3309, scss/partials/_hover-effects.scss */
+/* line 3968, scss/style.scss */
 .hvr-icon-pulse-grow:hover .hvr-icon, .hvr-icon-pulse-grow:focus .hvr-icon, .hvr-icon-pulse-grow:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pulse-grow;
   animation-name: hvr-icon-pulse-grow;
@@ -3979,6 +4294,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3335, scss/partials/_hover-effects.scss */
+/* line 3995, scss/style.scss */
 .hvr-icon-pulse-shrink {
   display: inline-block;
   vertical-align: middle;
@@ -3988,6 +4304,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3342, scss/partials/_hover-effects.scss */
+/* line 4004, scss/style.scss */
 .hvr-icon-pulse-shrink .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -3996,6 +4313,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3348, scss/partials/_hover-effects.scss */
+/* line 4012, scss/style.scss */
 .hvr-icon-pulse-shrink:hover .hvr-icon, .hvr-icon-pulse-shrink:focus .hvr-icon, .hvr-icon-pulse-shrink:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pulse-shrink;
   animation-name: hvr-icon-pulse-shrink;
@@ -4023,6 +4341,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3374, scss/partials/_hover-effects.scss */
+/* line 4039, scss/style.scss */
 .hvr-icon-push {
   display: inline-block;
   vertical-align: middle;
@@ -4034,6 +4353,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3383, scss/partials/_hover-effects.scss */
+/* line 4050, scss/style.scss */
 .hvr-icon-push .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4046,6 +4366,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3393, scss/partials/_hover-effects.scss */
+/* line 4062, scss/style.scss */
 .hvr-icon-push:hover .hvr-icon, .hvr-icon-push:focus .hvr-icon, .hvr-icon-push:active .hvr-icon {
   -webkit-animation-name: hvr-icon-push;
   animation-name: hvr-icon-push;
@@ -4071,6 +4392,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3417, scss/partials/_hover-effects.scss */
+/* line 4087, scss/style.scss */
 .hvr-icon-pop {
   display: inline-block;
   vertical-align: middle;
@@ -4082,6 +4404,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3426, scss/partials/_hover-effects.scss */
+/* line 4098, scss/style.scss */
 .hvr-icon-pop .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4094,6 +4417,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3436, scss/partials/_hover-effects.scss */
+/* line 4110, scss/style.scss */
 .hvr-icon-pop:hover .hvr-icon, .hvr-icon-pop:focus .hvr-icon, .hvr-icon-pop:active .hvr-icon {
   -webkit-animation-name: hvr-icon-pop;
   animation-name: hvr-icon-pop;
@@ -4107,6 +4431,7 @@ body.home .fa-phone:before {
 
 /* Icon Bounce */
 /* line 3448, scss/partials/_hover-effects.scss */
+/* line 4123, scss/style.scss */
 .hvr-icon-bounce {
   display: inline-block;
   vertical-align: middle;
@@ -4118,6 +4443,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3457, scss/partials/_hover-effects.scss */
+/* line 4134, scss/style.scss */
 .hvr-icon-bounce .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4130,6 +4456,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3467, scss/partials/_hover-effects.scss */
+/* line 4146, scss/style.scss */
 .hvr-icon-bounce:hover .hvr-icon, .hvr-icon-bounce:focus .hvr-icon, .hvr-icon-bounce:active .hvr-icon {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
@@ -4139,6 +4466,7 @@ body.home .fa-phone:before {
 
 /* Icon Rotate */
 /* line 3475, scss/partials/_hover-effects.scss */
+/* line 4155, scss/style.scss */
 .hvr-icon-rotate {
   display: inline-block;
   vertical-align: middle;
@@ -4150,6 +4478,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3484, scss/partials/_hover-effects.scss */
+/* line 4166, scss/style.scss */
 .hvr-icon-rotate .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4162,6 +4491,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3494, scss/partials/_hover-effects.scss */
+/* line 4178, scss/style.scss */
 .hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
@@ -4169,6 +4499,7 @@ body.home .fa-phone:before {
 
 /* Icon Grow Rotate */
 /* line 3500, scss/partials/_hover-effects.scss */
+/* line 4185, scss/style.scss */
 .hvr-icon-grow-rotate {
   display: inline-block;
   vertical-align: middle;
@@ -4180,6 +4511,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3509, scss/partials/_hover-effects.scss */
+/* line 4196, scss/style.scss */
 .hvr-icon-grow-rotate .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4192,6 +4524,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3519, scss/partials/_hover-effects.scss */
+/* line 4208, scss/style.scss */
 .hvr-icon-grow-rotate:hover .hvr-icon, .hvr-icon-grow-rotate:focus .hvr-icon, .hvr-icon-grow-rotate:active .hvr-icon {
   -webkit-transform: scale(1.5) rotate(12deg);
   transform: scale(1.5) rotate(12deg);
@@ -4199,6 +4532,7 @@ body.home .fa-phone:before {
 
 /* Icon Float */
 /* line 3525, scss/partials/_hover-effects.scss */
+/* line 4215, scss/style.scss */
 .hvr-icon-float {
   display: inline-block;
   vertical-align: middle;
@@ -4210,6 +4544,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3534, scss/partials/_hover-effects.scss */
+/* line 4226, scss/style.scss */
 .hvr-icon-float .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4222,6 +4557,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3544, scss/partials/_hover-effects.scss */
+/* line 4238, scss/style.scss */
 .hvr-icon-float:hover .hvr-icon, .hvr-icon-float:focus .hvr-icon, .hvr-icon-float:active .hvr-icon {
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
@@ -4229,6 +4565,7 @@ body.home .fa-phone:before {
 
 /* Icon Sink */
 /* line 3550, scss/partials/_hover-effects.scss */
+/* line 4245, scss/style.scss */
 .hvr-icon-sink {
   display: inline-block;
   vertical-align: middle;
@@ -4240,6 +4577,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3559, scss/partials/_hover-effects.scss */
+/* line 4256, scss/style.scss */
 .hvr-icon-sink .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -4252,6 +4590,7 @@ body.home .fa-phone:before {
 }
 
 /* line 3569, scss/partials/_hover-effects.scss */
+/* line 4268, scss/style.scss */
 .hvr-icon-sink:hover .hvr-icon, .hvr-icon-sink:focus .hvr-icon, .hvr-icon-sink:active .hvr-icon {
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -4299,6 +4638,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3615, scss/partials/_hover-effects.scss */
+/* line 4315, scss/style.scss */
 .hvr-icon-bob {
   display: inline-block;
   vertical-align: middle;
@@ -4310,12 +4650,14 @@ body.home .fa-phone:before {
 }
 
 /* line 3624, scss/partials/_hover-effects.scss */
+/* line 4326, scss/style.scss */
 .hvr-icon-bob .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 3628, scss/partials/_hover-effects.scss */
+/* line 4332, scss/style.scss */
 .hvr-icon-bob:hover .hvr-icon, .hvr-icon-bob:focus .hvr-icon, .hvr-icon-bob:active .hvr-icon {
   -webkit-animation-name: hvr-icon-bob-float, hvr-icon-bob;
   animation-name: hvr-icon-bob-float, hvr-icon-bob;
@@ -4375,6 +4717,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3686, scss/partials/_hover-effects.scss */
+/* line 4391, scss/style.scss */
 .hvr-icon-hang {
   display: inline-block;
   vertical-align: middle;
@@ -4386,12 +4729,14 @@ body.home .fa-phone:before {
 }
 
 /* line 3695, scss/partials/_hover-effects.scss */
+/* line 4402, scss/style.scss */
 .hvr-icon-hang .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 3699, scss/partials/_hover-effects.scss */
+/* line 4408, scss/style.scss */
 .hvr-icon-hang:hover .hvr-icon, .hvr-icon-hang:focus .hvr-icon, .hvr-icon-hang:active .hvr-icon {
   -webkit-animation-name: hvr-icon-hang-sink, hvr-icon-hang;
   animation-name: hvr-icon-hang-sink, hvr-icon-hang;
@@ -4463,6 +4808,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3769, scss/partials/_hover-effects.scss */
+/* line 4479, scss/style.scss */
 .hvr-icon-wobble-horizontal {
   display: inline-block;
   vertical-align: middle;
@@ -4474,12 +4820,14 @@ body.home .fa-phone:before {
 }
 
 /* line 3778, scss/partials/_hover-effects.scss */
+/* line 4490, scss/style.scss */
 .hvr-icon-wobble-horizontal .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 3782, scss/partials/_hover-effects.scss */
+/* line 4496, scss/style.scss */
 .hvr-icon-wobble-horizontal:hover .hvr-icon, .hvr-icon-wobble-horizontal:focus .hvr-icon, .hvr-icon-wobble-horizontal:active .hvr-icon {
   -webkit-animation-name: hvr-icon-wobble-horizontal;
   animation-name: hvr-icon-wobble-horizontal;
@@ -4545,6 +4893,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3846, scss/partials/_hover-effects.scss */
+/* line 4561, scss/style.scss */
 .hvr-icon-wobble-vertical {
   display: inline-block;
   vertical-align: middle;
@@ -4556,12 +4905,14 @@ body.home .fa-phone:before {
 }
 
 /* line 3855, scss/partials/_hover-effects.scss */
+/* line 4572, scss/style.scss */
 .hvr-icon-wobble-vertical .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 3859, scss/partials/_hover-effects.scss */
+/* line 4578, scss/style.scss */
 .hvr-icon-wobble-vertical:hover .hvr-icon, .hvr-icon-wobble-vertical:focus .hvr-icon, .hvr-icon-wobble-vertical:active .hvr-icon {
   -webkit-animation-name: hvr-icon-wobble-vertical;
   animation-name: hvr-icon-wobble-vertical;
@@ -4595,6 +4946,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 3891, scss/partials/_hover-effects.scss */
+/* line 4611, scss/style.scss */
 .hvr-icon-buzz {
   display: inline-block;
   vertical-align: middle;
@@ -4606,12 +4958,14 @@ body.home .fa-phone:before {
 }
 
 /* line 3900, scss/partials/_hover-effects.scss */
+/* line 4622, scss/style.scss */
 .hvr-icon-buzz .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 3904, scss/partials/_hover-effects.scss */
+/* line 4628, scss/style.scss */
 .hvr-icon-buzz:hover .hvr-icon, .hvr-icon-buzz:focus .hvr-icon, .hvr-icon-buzz:active .hvr-icon {
   -webkit-animation-name: hvr-icon-buzz;
   animation-name: hvr-icon-buzz;
@@ -4709,6 +5063,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 4000, scss/partials/_hover-effects.scss */
+/* line 4725, scss/style.scss */
 .hvr-icon-buzz-out {
   display: inline-block;
   vertical-align: middle;
@@ -4720,12 +5075,14 @@ body.home .fa-phone:before {
 }
 
 /* line 4009, scss/partials/_hover-effects.scss */
+/* line 4736, scss/style.scss */
 .hvr-icon-buzz-out .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 
 /* line 4013, scss/partials/_hover-effects.scss */
+/* line 4742, scss/style.scss */
 .hvr-icon-buzz-out:hover .hvr-icon, .hvr-icon-buzz-out:focus .hvr-icon, .hvr-icon-buzz-out:active .hvr-icon {
   -webkit-animation-name: hvr-icon-buzz-out;
   animation-name: hvr-icon-buzz-out;
@@ -4740,6 +5097,7 @@ body.home .fa-phone:before {
 /* CURLS */
 /* Curl Top Left */
 /* line 4026, scss/partials/_hover-effects.scss */
+/* line 4756, scss/style.scss */
 .hvr-curl-top-left {
   display: inline-block;
   vertical-align: middle;
@@ -4750,6 +5108,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4034, scss/partials/_hover-effects.scss */
+/* line 4766, scss/style.scss */
 .hvr-curl-top-left:before {
   pointer-events: none;
   position: absolute;
@@ -4772,6 +5131,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4054, scss/partials/_hover-effects.scss */
+/* line 4788, scss/style.scss */
 .hvr-curl-top-left:hover:before, .hvr-curl-top-left:focus:before, .hvr-curl-top-left:active:before {
   width: 25px;
   height: 25px;
@@ -4779,6 +5139,7 @@ body.home .fa-phone:before {
 
 /* Curl Top Right */
 /* line 4060, scss/partials/_hover-effects.scss */
+/* line 4795, scss/style.scss */
 .hvr-curl-top-right {
   display: inline-block;
   vertical-align: middle;
@@ -4789,6 +5150,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4068, scss/partials/_hover-effects.scss */
+/* line 4805, scss/style.scss */
 .hvr-curl-top-right:before {
   pointer-events: none;
   position: absolute;
@@ -4808,6 +5170,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4085, scss/partials/_hover-effects.scss */
+/* line 4824, scss/style.scss */
 .hvr-curl-top-right:hover:before, .hvr-curl-top-right:focus:before, .hvr-curl-top-right:active:before {
   width: 25px;
   height: 25px;
@@ -4815,6 +5178,7 @@ body.home .fa-phone:before {
 
 /* Curl Bottom Right */
 /* line 4091, scss/partials/_hover-effects.scss */
+/* line 4831, scss/style.scss */
 .hvr-curl-bottom-right {
   display: inline-block;
   vertical-align: middle;
@@ -4825,6 +5189,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4099, scss/partials/_hover-effects.scss */
+/* line 4841, scss/style.scss */
 .hvr-curl-bottom-right:before {
   pointer-events: none;
   position: absolute;
@@ -4844,6 +5209,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4116, scss/partials/_hover-effects.scss */
+/* line 4860, scss/style.scss */
 .hvr-curl-bottom-right:hover:before, .hvr-curl-bottom-right:focus:before, .hvr-curl-bottom-right:active:before {
   width: 25px;
   height: 25px;
@@ -4851,6 +5217,7 @@ body.home .fa-phone:before {
 
 /* Curl Bottom Left */
 /* line 4122, scss/partials/_hover-effects.scss */
+/* line 4867, scss/style.scss */
 .hvr-curl-bottom-left {
   display: inline-block;
   vertical-align: middle;
@@ -4861,6 +5228,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4130, scss/partials/_hover-effects.scss */
+/* line 4877, scss/style.scss */
 .hvr-curl-bottom-left:before {
   pointer-events: none;
   position: absolute;
@@ -4880,6 +5248,7 @@ body.home .fa-phone:before {
 }
 
 /* line 4147, scss/partials/_hover-effects.scss */
+/* line 4896, scss/style.scss */
 .hvr-curl-bottom-left:hover:before, .hvr-curl-bottom-left:focus:before, .hvr-curl-bottom-left:active:before {
   width: 25px;
   height: 25px;
@@ -4887,6 +5256,7 @@ body.home .fa-phone:before {
 
 /*# sourceMappingURL=hover.css.map */
 /* line 1, scss/partials/_animations-ie-fix.scss */
+/* line 4903, scss/style.scss */
 .animated {
   opacity: 1;
 }
@@ -4896,6 +5266,7 @@ body.home .fa-phone:before {
 * Bounce in right *
 *******************/
 /* line 8, scss/partials/_animations.scss */
+/* line 4912, scss/style.scss */
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -4904,6 +5275,7 @@ body.home .fa-phone:before {
 }
 
 /* line 14, scss/partials/_animations.scss */
+/* line 4920, scss/style.scss */
 .slow {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
@@ -4912,6 +5284,7 @@ body.home .fa-phone:before {
 }
 
 /* line 20, scss/partials/_animations.scss */
+/* line 4928, scss/style.scss */
 .slower {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -4920,6 +5293,7 @@ body.home .fa-phone:before {
 }
 
 /* line 26, scss/partials/_animations.scss */
+/* line 4936, scss/style.scss */
 .slowest {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -4929,6 +5303,7 @@ body.home .fa-phone:before {
 
 /* Added by Andy Meetan */
 /* line 34, scss/partials/_animations.scss */
+/* line 4945, scss/style.scss */
 .delay-250 {
   -webkit-animation-delay: 0.25s;
   -moz-animation-delay: 0.25s;
@@ -4937,6 +5312,7 @@ body.home .fa-phone:before {
 }
 
 /* line 40, scss/partials/_animations.scss */
+/* line 4953, scss/style.scss */
 .delay-500 {
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
@@ -4945,6 +5321,7 @@ body.home .fa-phone:before {
 }
 
 /* line 46, scss/partials/_animations.scss */
+/* line 4961, scss/style.scss */
 .delay-750 {
   -webkit-animation-delay: 0.75s;
   -moz-animation-delay: 0.75s;
@@ -4953,6 +5330,7 @@ body.home .fa-phone:before {
 }
 
 /* line 52, scss/partials/_animations.scss */
+/* line 4969, scss/style.scss */
 .delay-1000 {
   -webkit-animation-delay: 1.0s;
   -moz-animation-delay: 1.0s;
@@ -4961,6 +5339,7 @@ body.home .fa-phone:before {
 }
 
 /* line 58, scss/partials/_animations.scss */
+/* line 4977, scss/style.scss */
 .delay-1250 {
   -webkit-animation-delay: 1.25s;
   -moz-animation-delay: 1.25s;
@@ -4969,6 +5348,7 @@ body.home .fa-phone:before {
 }
 
 /* line 64, scss/partials/_animations.scss */
+/* line 4985, scss/style.scss */
 .delay-1500 {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
@@ -4977,6 +5357,7 @@ body.home .fa-phone:before {
 }
 
 /* line 70, scss/partials/_animations.scss */
+/* line 4993, scss/style.scss */
 .delay-1750 {
   -webkit-animation-delay: 1.75s;
   -moz-animation-delay: 1.75s;
@@ -4985,6 +5366,7 @@ body.home .fa-phone:before {
 }
 
 /* line 76, scss/partials/_animations.scss */
+/* line 5001, scss/style.scss */
 .delay-2000 {
   -webkit-animation-delay: 2.0s;
   -moz-animation-delay: 2.0s;
@@ -4993,6 +5375,7 @@ body.home .fa-phone:before {
 }
 
 /* line 82, scss/partials/_animations.scss */
+/* line 5009, scss/style.scss */
 .delay-2500 {
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
@@ -5001,6 +5384,7 @@ body.home .fa-phone:before {
 }
 
 /* line 88, scss/partials/_animations.scss */
+/* line 5017, scss/style.scss */
 .delay-2000 {
   -webkit-animation-delay: 2.0s;
   -moz-animation-delay: 2.0s;
@@ -5009,6 +5393,7 @@ body.home .fa-phone:before {
 }
 
 /* line 94, scss/partials/_animations.scss */
+/* line 5025, scss/style.scss */
 .delay-2500 {
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
@@ -5017,6 +5402,7 @@ body.home .fa-phone:before {
 }
 
 /* line 100, scss/partials/_animations.scss */
+/* line 5033, scss/style.scss */
 .delay-3000 {
   -webkit-animation-delay: 3.0s;
   -moz-animation-delay: 3.0s;
@@ -5025,6 +5411,7 @@ body.home .fa-phone:before {
 }
 
 /* line 106, scss/partials/_animations.scss */
+/* line 5041, scss/style.scss */
 .delay-3500 {
   -webkit-animation-delay: 3.5s;
   -moz-animation-delay: 3.5s;
@@ -5033,6 +5420,7 @@ body.home .fa-phone:before {
 }
 
 /* line 113, scss/partials/_animations.scss */
+/* line 5049, scss/style.scss */
 .bounceInRight, .bounceInLeft, .bounceInUp, .bounceInDown {
   opacity: 0;
   -webkit-transform: translateX(400px);
@@ -5040,6 +5428,7 @@ body.home .fa-phone:before {
 }
 
 /* line 118, scss/partials/_animations.scss */
+/* line 5056, scss/style.scss */
 .fadeInRight, .fadeInLeft, .fadeInUp, .fadeInDown {
   opacity: 0;
   -webkit-transform: translateX(400px);
@@ -5047,11 +5436,13 @@ body.home .fa-phone:before {
 }
 
 /* line 124, scss/partials/_animations.scss */
+/* line 5063, scss/style.scss */
 .flipInX, .flipInY, .rotateIn, .rotateInUpLeft, .rotateInUpRight, .rotateInDownLeft, .rotateDownUpRight, .rollIn {
   opacity: 0;
 }
 
 /* line 128, scss/partials/_animations.scss */
+/* line 5068, scss/style.scss */
 .lightSpeedInRight, .lightSpeedInLeft {
   opacity: 0;
   -webkit-transform: translateX(400px);
@@ -5094,6 +5485,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 177, scss/partials/_animations.scss */
+/* line 5110, scss/style.scss */
 .bounceIn.go {
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
@@ -5135,6 +5527,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 227, scss/partials/_animations.scss */
+/* line 5151, scss/style.scss */
 .bounceInRight.go {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
@@ -5176,6 +5569,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 276, scss/partials/_animations.scss */
+/* line 5192, scss/style.scss */
 .bounceInLeft.go {
   -webkit-animation-name: bounceInLeft;
   animation-name: bounceInLeft;
@@ -5217,6 +5611,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 325, scss/partials/_animations.scss */
+/* line 5233, scss/style.scss */
 .bounceInUp.go {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
@@ -5258,6 +5653,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 375, scss/partials/_animations.scss */
+/* line 5274, scss/style.scss */
 .bounceInDown.go {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
@@ -5285,11 +5681,13 @@ body.home .fa-phone:before {
   }
 }
 /* line 394, scss/partials/_animations.scss */
+/* line 5301, scss/style.scss */
 .fadeIn {
   opacity: 0;
 }
 
 /* line 397, scss/partials/_animations.scss */
+/* line 5306, scss/style.scss */
 .fadeIn.go {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -5325,6 +5723,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 434, scss/partials/_animations.scss */
+/* line 5341, scss/style.scss */
 .growIn {
   -webkit-transform: scale(0.2);
   transform: scale(0.2);
@@ -5332,6 +5731,7 @@ body.home .fa-phone:before {
 }
 
 /* line 440, scss/partials/_animations.scss */
+/* line 5348, scss/style.scss */
 .growIn.go {
   -webkit-animation-name: growIn;
   animation-name: growIn;
@@ -5363,6 +5763,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 458, scss/partials/_animations.scss */
+/* line 5379, scss/style.scss */
 .shake.go {
   -webkit-animation-name: shake;
   animation-name: shake;
@@ -5394,6 +5795,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 476, scss/partials/_animations.scss */
+/* line 5410, scss/style.scss */
 .shakeUp.go {
   -webkit-animation-name: shakeUp;
   animation-name: shakeUp;
@@ -5429,6 +5831,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 511, scss/partials/_animations.scss */
+/* line 5445, scss/style.scss */
 .fadeInLeft {
   opacity: 0;
   -webkit-transform: translateX(-400px);
@@ -5436,6 +5839,7 @@ body.home .fa-phone:before {
 }
 
 /* line 516, scss/partials/_animations.scss */
+/* line 5452, scss/style.scss */
 .fadeInLeft.go {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
@@ -5471,6 +5875,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 552, scss/partials/_animations.scss */
+/* line 5487, scss/style.scss */
 .fadeInRight {
   opacity: 0;
   -webkit-transform: translateX(400px);
@@ -5478,6 +5883,7 @@ body.home .fa-phone:before {
 }
 
 /* line 557, scss/partials/_animations.scss */
+/* line 5494, scss/style.scss */
 .fadeInRight.go {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
@@ -5513,6 +5919,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 592, scss/partials/_animations.scss */
+/* line 5529, scss/style.scss */
 .fadeInUp {
   opacity: 0;
   -webkit-transform: translateY(400px);
@@ -5520,6 +5927,7 @@ body.home .fa-phone:before {
 }
 
 /* line 597, scss/partials/_animations.scss */
+/* line 5536, scss/style.scss */
 .fadeInUp.go {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
@@ -5555,6 +5963,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 632, scss/partials/_animations.scss */
+/* line 5571, scss/style.scss */
 .fadeInDown {
   opacity: 0;
   -webkit-transform: translateY(-400px);
@@ -5562,6 +5971,7 @@ body.home .fa-phone:before {
 }
 
 /* line 637, scss/partials/_animations.scss */
+/* line 5578, scss/style.scss */
 .fadeInDown.go {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -5595,6 +6005,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 669, scss/partials/_animations.scss */
+/* line 5611, scss/style.scss */
 .rotateIn.go {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
@@ -5628,6 +6039,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 702, scss/partials/_animations.scss */
+/* line 5644, scss/style.scss */
 .rotateInUpLeft.go {
   -webkit-animation-name: rotateInUpLeft;
   animation-name: rotateInUpLeft;
@@ -5661,6 +6073,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 734, scss/partials/_animations.scss */
+/* line 5677, scss/style.scss */
 .rotateInDownLeft.go {
   -webkit-animation-name: rotateInDownLeft;
   animation-name: rotateInDownLeft;
@@ -5694,6 +6107,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 767, scss/partials/_animations.scss */
+/* line 5710, scss/style.scss */
 .rotateInUpRight.go {
   -webkit-animation-name: rotateInUpRight;
   animation-name: rotateInUpRight;
@@ -5727,6 +6141,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 800, scss/partials/_animations.scss */
+/* line 5743, scss/style.scss */
 .rotateInDownRight.go {
   -webkit-animation-name: rotateInDownRight;
   animation-name: rotateInDownRight;
@@ -5756,6 +6171,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 817, scss/partials/_animations.scss */
+/* line 5772, scss/style.scss */
 .rollIn.go {
   -webkit-animation-name: rollIn;
   animation-name: rollIn;
@@ -5835,6 +6251,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 852, scss/partials/_animations.scss */
+/* line 5851, scss/style.scss */
 .wiggle.go {
   -webkit-animation-name: wiggle;
   animation-name: wiggle;
@@ -5883,6 +6300,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 878, scss/partials/_animations.scss */
+/* line 5899, scss/style.scss */
 .swing.go {
   -webkit-transform-origin: top center;
   transform-origin: top center;
@@ -5928,6 +6346,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 903, scss/partials/_animations.scss */
+/* line 5944, scss/style.scss */
 .tada.go {
   -webkit-animation-name: tada;
   animation-name: tada;
@@ -5983,6 +6402,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 930, scss/partials/_animations.scss */
+/* line 5999, scss/style.scss */
 .wobble.go {
   -webkit-animation-name: wobble;
   animation-name: wobble;
@@ -6014,6 +6434,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 949, scss/partials/_animations.scss */
+/* line 6030, scss/style.scss */
 .pulse.go {
   -webkit-animation-name: pulse;
   animation-name: pulse;
@@ -6059,6 +6480,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 969, scss/partials/_animations.scss */
+/* line 6075, scss/style.scss */
 .lightSpeedInRight.go {
   -webkit-animation-name: lightSpeedInRight;
   animation-name: lightSpeedInRight;
@@ -6106,6 +6528,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 991, scss/partials/_animations.scss */
+/* line 6122, scss/style.scss */
 .lightSpeedInLeft.go {
   -webkit-animation-name: lightSpeedInLeft;
   animation-name: lightSpeedInLeft;
@@ -6161,6 +6584,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1046, scss/partials/_animations.scss */
+/* line 6177, scss/style.scss */
 .flip.go {
   -webkit-backface-visibility: visible !important;
   -webkit-animation-name: flip;
@@ -6204,6 +6628,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1088, scss/partials/_animations.scss */
+/* line 6220, scss/style.scss */
 .flipInX.go {
   -webkit-backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
@@ -6247,6 +6672,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1131, scss/partials/_animations.scss */
+/* line 6263, scss/style.scss */
 .flipInY.go {
   -webkit-backface-visibility: visible !important;
   -webkit-animation-name: flipInY;
@@ -6293,6 +6719,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1178, scss/partials/_animations.scss */
+/* line 6309, scss/style.scss */
 .bounceOut.goAway {
   -webkit-animation-name: bounceOut;
   animation-name: bounceOut;
@@ -6328,6 +6755,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1212, scss/partials/_animations.scss */
+/* line 6344, scss/style.scss */
 .bounceOutUp.goAway {
   -webkit-animation-name: bounceOutUp;
   animation-name: bounceOutUp;
@@ -6363,6 +6791,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1246, scss/partials/_animations.scss */
+/* line 6379, scss/style.scss */
 .bounceOutDown.goAway {
   -webkit-animation-name: bounceOutDown;
   animation-name: bounceOutDown;
@@ -6398,6 +6827,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1281, scss/partials/_animations.scss */
+/* line 6414, scss/style.scss */
 .bounceOutLeft.goAway {
   -webkit-animation-name: bounceOutLeft;
   animation-name: bounceOutLeft;
@@ -6433,6 +6863,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1315, scss/partials/_animations.scss */
+/* line 6449, scss/style.scss */
 .bounceOutRight.goAway {
   -webkit-animation-name: bounceOutRight;
   animation-name: bounceOutRight;
@@ -6458,6 +6889,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1331, scss/partials/_animations.scss */
+/* line 6474, scss/style.scss */
 .fadeOut.goAway {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
@@ -6487,6 +6919,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1359, scss/partials/_animations.scss */
+/* line 6503, scss/style.scss */
 .fadeOutUp.goAway {
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
@@ -6516,6 +6949,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1387, scss/partials/_animations.scss */
+/* line 6532, scss/style.scss */
 .fadeOutDown.goAway {
   -webkit-animation-name: fadeOutDown;
   animation-name: fadeOutDown;
@@ -6545,6 +6979,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1415, scss/partials/_animations.scss */
+/* line 6561, scss/style.scss */
 .fadeOutLeft.goAway {
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
@@ -6574,6 +7009,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1443, scss/partials/_animations.scss */
+/* line 6590, scss/style.scss */
 .fadeOutRight.goAway {
   -webkit-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
@@ -6603,6 +7039,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1470, scss/partials/_animations.scss */
+/* line 6619, scss/style.scss */
 .flipOutX.goAway {
   -webkit-animation-name: flipOutX;
   -webkit-backface-visibility: visible !important;
@@ -6634,6 +7071,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1500, scss/partials/_animations.scss */
+/* line 6650, scss/style.scss */
 .flipOutY {
   -webkit-backface-visibility: visible !important;
   -webkit-animation-name: flipOutY;
@@ -6665,6 +7103,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1518, scss/partials/_animations.scss */
+/* line 6681, scss/style.scss */
 .lightSpeedOutRight.goAway {
   -webkit-animation-name: lightSpeedOutRight;
   animation-name: lightSpeedOutRight;
@@ -6696,6 +7135,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1537, scss/partials/_animations.scss */
+/* line 6712, scss/style.scss */
 .lightSpeedOutLeft.goAway {
   -webkit-animation-name: lightSpeedOutLeft;
   animation-name: lightSpeedOutLeft;
@@ -6731,6 +7171,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1572, scss/partials/_animations.scss */
+/* line 6747, scss/style.scss */
 .rotateOut.goAway {
   -webkit-animation-name: rotateOut;
   animation-name: rotateOut;
@@ -6764,6 +7205,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1605, scss/partials/_animations.scss */
+/* line 6780, scss/style.scss */
 .rotateOutUpLeft.goAway {
   -webkit-animation-name: rotateOutUpLeft;
   animation-name: rotateOutUpLeft;
@@ -6797,6 +7239,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1638, scss/partials/_animations.scss */
+/* line 6813, scss/style.scss */
 .rotateOutDownLeft.goAway {
   -webkit-animation-name: rotateOutDownLeft;
   animation-name: rotateOutDownLeft;
@@ -6830,6 +7273,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1670, scss/partials/_animations.scss */
+/* line 6846, scss/style.scss */
 .rotateOutUpRight.goAway {
   -webkit-animation-name: rotateOutUpRight;
   animation-name: rotateOutUpRight;
@@ -6859,6 +7303,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1698, scss/partials/_animations.scss */
+/* line 6875, scss/style.scss */
 .rollOut.goAway {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
@@ -6891,6 +7336,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1730, scss/partials/_animations.scss */
+/* line 6907, scss/style.scss */
 .fadeInUpShort {
   opacity: 0;
   -webkit-transform: translateY(20px);
@@ -6898,6 +7344,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1735, scss/partials/_animations.scss */
+/* line 6914, scss/style.scss */
 .fadeInUpShort.go {
   -webkit-animation-name: fadeInUpShort;
   animation-name: fadeInUpShort;
@@ -6927,6 +7374,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1764, scss/partials/_animations.scss */
+/* line 6943, scss/style.scss */
 .fadeInDownShort {
   opacity: 0;
   -webkit-transform: translateY(-20px);
@@ -6934,6 +7382,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1769, scss/partials/_animations.scss */
+/* line 6950, scss/style.scss */
 .fadeInDownShort.go {
   -webkit-animation-name: fadeInDownShort;
   animation-name: fadeInDownShort;
@@ -6963,6 +7412,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1797, scss/partials/_animations.scss */
+/* line 6979, scss/style.scss */
 .fadeInRightShort {
   opacity: 0;
   -webkit-transform: translateX(20px);
@@ -6970,6 +7420,7 @@ body.home .fa-phone:before {
 }
 
 /* line 1802, scss/partials/_animations.scss */
+/* line 6986, scss/style.scss */
 .fadeInRightShort.go {
   -webkit-animation-name: fadeInRightShort;
   animation-name: fadeInRightShort;
@@ -6999,6 +7450,7 @@ body.home .fa-phone:before {
   }
 }
 /* line 1830, scss/partials/_animations.scss */
+/* line 7015, scss/style.scss */
 .fadeInLeftShort {
   opacity: 0;
   -webkit-transform: translateX(-20px);
@@ -7006,41 +7458,54 @@ body.home .fa-phone:before {
 }
 
 /* line 1835, scss/partials/_animations.scss */
+/* line 7022, scss/style.scss */
 .fadeInLeftShort.go {
   -webkit-animation-name: fadeInLeftShort;
   animation-name: fadeInLeftShort;
 }
 
 /* line 1, scss/partials/_footer.scss */
+/* line 7028, scss/style.scss */
 .x-colophon.top {
   background-color: #f6f1ed !important;
 }
 
 /* line 6, scss/partials/_footer.scss */
+/* line 7033, scss/style.scss */
 footer h4 {
   margin-top: 0;
   color: #30231d;
 }
+
 /* line 10, scss/partials/_footer.scss */
+/* line 7038, scss/style.scss */
 footer p {
   color: #30231d;
 }
+
 /* line 14, scss/partials/_footer.scss */
+/* line 7042, scss/style.scss */
 footer #media_image-2 img {
   width: 65%;
   height: auto;
   float: right;
 }
+
 /* line 21, scss/partials/_footer.scss */
+/* line 7048, scss/style.scss */
 footer form label {
   color: #30231d;
   font-size: 0.85em;
 }
+
 /* line 25, scss/partials/_footer.scss */
+/* line 7053, scss/style.scss */
 footer form input[type="text"], footer form input[type="email"] {
   height: 3.0em;
 }
+
 /* line 28, scss/partials/_footer.scss */
+/* line 7057, scss/style.scss */
 footer form [type="submit"] {
   background-color: transparent;
   text-shadow: none;
@@ -7052,38 +7517,48 @@ footer form [type="submit"] {
 }
 
 /* line 41, scss/partials/_footer.scss */
+/* line 7068, scss/style.scss */
 .x-colophon.top {
   padding: 5% 0 0;
 }
 
 /* line 45, scss/partials/_footer.scss */
+/* line 7073, scss/style.scss */
 .x-colophon.bottom {
   background-color: #f6f1ed !important;
 }
+
 /* line 48, scss/partials/_footer.scss */
+/* line 7077, scss/style.scss */
 .x-colophon.bottom .x-colophon-content p {
   color: #30231d;
   margin-bottom: 1.5em !important;
 }
+
 /* line 51, scss/partials/_footer.scss */
+/* line 7082, scss/style.scss */
 .x-colophon.bottom .x-colophon-content p img {
   max-width: 4.0em;
   margin-top: 2.0em;
 }
 
 /* line 60, scss/partials/_footer.scss */
+/* line 7088, scss/style.scss */
 .footer_sm_logo {
   display: block;
   width: 45%;
   float: left;
   margin-top: 1.5em;
 }
+
 /* line 65, scss/partials/_footer.scss */
+/* line 7095, scss/style.scss */
 .footer_sm_logo:last-child {
   float: right;
 }
 
 /* line 69, scss/partials/_footer.scss */
+/* line 7100, scss/style.scss */
 .ccb_footer {
   color: #30231d;
   font-size: 0.75em;
@@ -7095,11 +7570,14 @@ footer form [type="submit"] {
 }
 
 /* line 1, scss/partials/_models-interior.scss */
+/* line 7111, scss/style.scss */
 .hero_header {
   position: relative;
   margin-bottom: -5em !important;
 }
+
 /* line 4, scss/partials/_models-interior.scss */
+/* line 7116, scss/style.scss */
 .hero_header img {
   width: 100%;
   height: auto;
@@ -7108,15 +7586,19 @@ footer form [type="submit"] {
 }
 
 /* line 12, scss/partials/_models-interior.scss */
+/* line 7124, scss/style.scss */
 .overview_copy_row ul {
   list-style-type: none;
 }
+
 /* line 15, scss/partials/_models-interior.scss */
+/* line 7128, scss/style.scss */
 .overview_copy_row h2 {
   color: #999999;
 }
 
 /* line 19, scss/partials/_models-interior.scss */
+/* line 7133, scss/style.scss */
 h1.interior-header {
   display: inline-block;
   background-color: #333333;
@@ -7132,19 +7614,26 @@ h1.interior-header {
 }
 
 /* line 33, scss/partials/_models-interior.scss */
+/* line 7148, scss/style.scss */
 .model_row {
   text-align: center;
 }
+
 /* line 35, scss/partials/_models-interior.scss */
+/* line 7152, scss/style.scss */
 .model_row .x-image {
   margin-bottom: -2.0em;
 }
+
 /* line 36, scss/partials/_models-interior.scss */
+/* line 7156, scss/style.scss */
 .model_row .x-image img {
   width: 100%;
   height: auto;
 }
+
 /* line 42, scss/partials/_models-interior.scss */
+/* line 7161, scss/style.scss */
 .model_row h1 {
   display: inline-block;
   background-color: #6a5750 !important;
@@ -7156,7 +7645,9 @@ h1.interior-header {
   margin: 0 auto !important;
   font-family: "Playfair Display", serif !important;
 }
+
 /* line 53, scss/partials/_models-interior.scss */
+/* line 7173, scss/style.scss */
 .model_row .model_descript_short {
   display: flex;
   justify-content: space-around;
@@ -7164,7 +7655,9 @@ h1.interior-header {
   padding: 1em 0 !important;
   font-size: 1.2em !important;
 }
+
 /* line 60, scss/partials/_models-interior.scss */
+/* line 7181, scss/style.scss */
 .model_row a.model_details {
   display: inline-block;
   clear: both;
@@ -7175,21 +7668,28 @@ h1.interior-header {
   margin: 2em 0 !important;
   transition: all 0.5s ease;
 }
+
 /* line 71, scss/partials/_models-interior.scss */
+/* line 7192, scss/style.scss */
 .model_row a.model_details:hover {
   color: #30231d;
   background-color: #f6f1ed;
 }
+
 /* line 76, scss/partials/_models-interior.scss */
+/* line 7197, scss/style.scss */
 .model_row a.model_details i {
   margin-left: 0.25em;
 }
 
 /* line 82, scss/partials/_models-interior.scss */
+/* line 7202, scss/style.scss */
 .model_hero_header {
   position: relative;
 }
+
 /* line 84, scss/partials/_models-interior.scss */
+/* line 7206, scss/style.scss */
 .model_hero_header img {
   width: 100%;
   height: auto;
@@ -7198,17 +7698,22 @@ h1.interior-header {
 }
 
 /* line 94, scss/partials/_models-interior.scss */
+/* line 7214, scss/style.scss */
 .model_description_row h2 {
   margin: 0 0 0.2em;
   border-bottom: 1px solid #999999;
 }
+
 /* line 98, scss/partials/_models-interior.scss */
+/* line 7219, scss/style.scss */
 .model_description_row .model_row_cta {
   padding: 1.0em;
   color: #f6f1ed !important;
   background-color: #b7aba2 !important;
 }
+
 /* line 102, scss/partials/_models-interior.scss */
+/* line 7225, scss/style.scss */
 .model_description_row .model_row_cta h3 {
   text-align: center;
   color: #f6f1ed !important;
@@ -7217,15 +7722,21 @@ h1.interior-header {
   border-bottom: 1px solid #f6f1ed;
   padding-bottom: 0.65em;
 }
+
 /* line 110, scss/partials/_models-interior.scss */
+/* line 7234, scss/style.scss */
 .model_description_row .model_row_cta .x-text {
   color: #f6f1ed !important;
 }
+
 /* line 113, scss/partials/_models-interior.scss */
+/* line 7238, scss/style.scss */
 .model_description_row .model_row_cta input[type="text"], .model_description_row .model_row_cta input[type="email"] {
   height: 2.0em;
 }
+
 /* line 116, scss/partials/_models-interior.scss */
+/* line 7242, scss/style.scss */
 .model_description_row .model_row_cta [type="submit"] {
   background-color: transparent;
   text-shadow: none;
@@ -7235,11 +7746,15 @@ h1.interior-header {
   color: #f6f1ed;
   width: 100%;
 }
+
 /* line 125, scss/partials/_models-interior.scss */
+/* line 7252, scss/style.scss */
 .model_description_row .model_row_cta label {
   font-size: 0.85em;
 }
+
 /* line 129, scss/partials/_models-interior.scss */
+/* line 7256, scss/style.scss */
 .model_description_row .model_descript_short {
   display: flex;
   justify-content: space-around;
@@ -7249,47 +7764,60 @@ h1.interior-header {
 }
 
 /* line 139, scss/partials/_models-interior.scss */
+/* line 7265, scss/style.scss */
 .secondary_row img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 /* line 144, scss/partials/_models-interior.scss */
+/* line 7271, scss/style.scss */
 .secondary_row .secondary_img_col {
   margin: 0px;
   width: 100%;
   background-size: cover;
   background-position: 50%;
 }
+
 /* line 14, scss/partials/_mixins.scss */
+/* line 7278, scss/style.scss */
 .secondary_row .secondary_img_col img {
   visibility: hidden;
   opacity: 0;
   width: 100%;
   height: auto;
 }
+
 @media all and (max-width: 900px) {
   /* line 144, scss/partials/_models-interior.scss */
+  /* line 7286, scss/style.scss */
   .secondary_row .secondary_img_col {
     opacity: 1;
   }
 }
 /* line 147, scss/partials/_models-interior.scss */
+/* line 7291, scss/style.scss */
 .secondary_row .secondary_txt_col {
   vertical-align: middle !important;
   padding: 1.0em 5.0em;
 }
+
 /* line 150, scss/partials/_models-interior.scss */
+/* line 7296, scss/style.scss */
 .secondary_row .secondary_txt_col p {
   width: 75%;
 }
 
 /* line 155, scss/partials/_models-interior.scss */
+/* line 7301, scss/style.scss */
 .dk_row {
   background-color: #b7aba2 !important;
   color: #f6f1ed !important;
 }
+
 /* line 158, scss/partials/_models-interior.scss */
+/* line 7306, scss/style.scss */
 .dk_row h2 {
   color: #f6f1ed !important;
   font-family: "Playfair Display", serif;
@@ -7300,17 +7828,22 @@ h1.interior-header {
   font-size: 2.0em;
   margin-bottom: 1.3em;
 }
+
 /* line 168, scss/partials/_models-interior.scss */
+/* line 7317, scss/style.scss */
 .dk_row p {
   color: #f6f1ed !important;
 }
 
 /* line 172, scss/partials/_models-interior.scss */
+/* line 7322, scss/style.scss */
 .lt_row {
   background-color: #6a5750 !important;
   color: #f6f1ed !important;
 }
+
 /* line 175, scss/partials/_models-interior.scss */
+/* line 7327, scss/style.scss */
 .lt_row h2 {
   color: #f6f1ed !important;
   font-family: "Playfair Display", serif;
@@ -7321,37 +7854,50 @@ h1.interior-header {
   font-size: 2.0em;
   margin-bottom: 1.3em;
 }
+
 /* line 185, scss/partials/_models-interior.scss */
+/* line 7338, scss/style.scss */
 .lt_row p {
   color: #f6f1ed !important;
 }
 
 /* line 191, scss/partials/_models-interior.scss */
+/* line 7343, scss/style.scss */
 .cta_row .cta_txt_col {
   display: flex;
   justify-content: center;
 }
+
 /* line 195, scss/partials/_models-interior.scss */
+/* line 7348, scss/style.scss */
 .cta_row .cta_txt_col div.x-text {
   padding: 2.0em;
   align-self: center;
 }
+
 /* line 198, scss/partials/_models-interior.scss */
+/* line 7353, scss/style.scss */
 .cta_row .cta_txt_col div.x-text h3 {
   color: #f6f1ed !important;
 }
+
 /* line 204, scss/partials/_models-interior.scss */
+/* line 7357, scss/style.scss */
 .cta_row .cta_btn_col {
   display: flex;
   justify-content: center;
   height: 100%;
 }
+
 /* line 209, scss/partials/_models-interior.scss */
+/* line 7363, scss/style.scss */
 .cta_row .cta_btn_col div.x-text {
   padding: 2.0em;
   align-self: center;
 }
+
 /* line 212, scss/partials/_models-interior.scss */
+/* line 7368, scss/style.scss */
 .cta_row .cta_btn_col div.x-text a {
   display: block;
   color: #f6f1ed;
@@ -7360,57 +7906,78 @@ h1.interior-header {
 }
 
 /* line 222, scss/partials/_models-interior.scss */
+/* line 7376, scss/style.scss */
 .fp_btn img {
   width: 100%;
   height: auto;
 }
 
 /* line 228, scss/partials/_models-interior.scss */
+/* line 7382, scss/style.scss */
 .color_palette_img img {
   width: 100%;
   height: auto;
 }
 
 /* line 2, scss/partials/_downloads.scss */
+/* line 7388, scss/style.scss */
 .fp_download_section:nth-child(odd) {
   background-color: #6a5750 !important;
 }
+
 /* line 5, scss/partials/_downloads.scss */
+/* line 7392, scss/style.scss */
 .fp_download_section:nth-child(even) {
   background-color: #b7aba2 !important;
 }
+
 /* line 8, scss/partials/_downloads.scss */
+/* line 7396, scss/style.scss */
 .fp_download_section .fp_download_row {
   display: flex;
   align-items: center;
 }
+
 /* line 14, scss/partials/_downloads.scss */
+/* line 7401, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_txt_col {
   color: #f6f1ed;
   text-align: center;
 }
+
 /* line 17, scss/partials/_downloads.scss */
+/* line 7406, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_txt_col h3 {
   color: #f6f1ed;
 }
+
 /* line 20, scss/partials/_downloads.scss */
+/* line 7410, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_txt_col .x-text {
   color: #f6f1ed;
 }
+
 /* line 23, scss/partials/_downloads.scss */
+/* line 7414, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_txt_col ul {
   list-style-type: none;
   font-size: 1.125em;
 }
+
 /* line 26, scss/partials/_downloads.scss */
+/* line 7419, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_txt_col ul .hvr-icon {
   margin-right: 0.5em;
 }
+
 /* line 31, scss/partials/_downloads.scss */
+/* line 7423, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_btn_col {
   text-align: center;
 }
+
 /* line 33, scss/partials/_downloads.scss */
+/* line 7427, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_btn_col a {
   color: #f6f1ed;
   padding: 0.5em 1.0em;
@@ -7418,15 +7985,161 @@ h1.interior-header {
   display: block;
   transition: all 0.5s ease;
 }
+
 /* line 39, scss/partials/_downloads.scss */
+/* line 7435, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_btn_col a:hover {
   background-color: #f6f1ed;
   color: #30231d;
   border: 1px solid #999999;
 }
+
 /* line 44, scss/partials/_downloads.scss */
+/* line 7441, scss/style.scss */
 .fp_download_section .fp_download_row .fp_download_btn_col a .fa-file-pdf {
   margin-left: 1.0em;
   font-size: 1.5em;
   margin-top: 0.25em;
+}
+
+@media (max-width: 768px) {
+  /* line 3, scss/partials/_mobile_fixes.scss */
+  body.home .hero_container {
+    margin-top: 0;
+  }
+
+  /* line 19, scss/partials/_mobile_fixes.scss */
+  .x-btn-navbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* line 23, scss/partials/_mobile_fixes.scss */
+  .e6-11.x-container, .e6-33.x-container {
+    margin: 0.5em auto 0.5em auto !important;
+    padding: 0 0 0 0 !important;
+  }
+
+  /* line 28, scss/partials/_mobile_fixes.scss */
+  body.home h2 {
+    font-size: 2em;
+    margin-bottom: 1.0em;
+  }
+
+  /* line 33, scss/partials/_mobile_fixes.scss */
+  .e6-15.x-line, .e6-37.x-line {
+    height: 0 !important;
+  }
+
+  /* line 36, scss/partials/_mobile_fixes.scss */
+  .gp_dk_row h3 {
+    font-size: 2.5em;
+    line-height: 1;
+    text-align: center;
+  }
+
+  /* line 41, scss/partials/_mobile_fixes.scss */
+  .cta-content {
+    margin-top: 2.0em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em !important;
+    display: block !important;
+    text-align: center;
+    width: 88%;
+  }
+
+  /* line 50, scss/partials/_mobile_fixes.scss */
+  .e6-35.x-text {
+    padding: 0 !important;
+  }
+
+  /* line 53, scss/partials/_mobile_fixes.scss */
+  .gp_light_row h3 {
+    color: #f6f1ed !important;
+    font-size: 2.5em;
+    line-height: 1;
+    text-align: center;
+  }
+
+  /* line 59, scss/partials/_mobile_fixes.scss */
+  .x-colophon.top .x-column .widget:first-child {
+    margin-top: 1em;
+  }
+
+  /* line 63, scss/partials/_mobile_fixes.scss */
+  .home_grow img {
+    margin-bottom: 1em;
+  }
+
+  /* line 67, scss/partials/_mobile_fixes.scss */
+  footer #media_image-2 img {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  /* line 73, scss/partials/_mobile_fixes.scss */
+  h1.interior-header {
+    margin-top: 65px;
+    font-size: 1.75em;
+  }
+
+  /* line 77, scss/partials/_mobile_fixes.scss */
+  .model_row h1 {
+    font-size: 1.75em !important;
+  }
+
+  /* line 80, scss/partials/_mobile_fixes.scss */
+  .model_description_row .model_descript_short {
+    display: block;
+    width: 100%;
+    justify-content: normal;
+  }
+  /* line 84, scss/partials/_mobile_fixes.scss */
+  .model_description_row .model_descript_short span {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 89, scss/partials/_mobile_fixes.scss */
+  .overview_copy_row h2 {
+    color: #999999;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  /* line 94, scss/partials/_mobile_fixes.scss */
+  .overview_copy_row ul {
+    margin: 0;
+  }
+
+  /* line 97, scss/partials/_mobile_fixes.scss */
+  .secondary_row .secondary_txt_col {
+    vertical-align: middle !important;
+    padding: 0.5em;
+  }
+
+  /* line 101, scss/partials/_mobile_fixes.scss */
+  .secondary_row .secondary_txt_col p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.25em !important;
+  }
+
+  /* line 106, scss/partials/_mobile_fixes.scss */
+  .lt_row h2 {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 112, scss/partials/_mobile_fixes.scss */
+  .dk_row h2 {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width: 100%;
+  }
 }

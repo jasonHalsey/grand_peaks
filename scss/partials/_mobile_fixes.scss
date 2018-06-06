@@ -1,0 +1,118 @@
+
+@media (max-width: 768px){
+	body.home .hero_container {
+	    margin-top: 0;
+	}
+	// header{
+	// 	.x-container.width {
+	// 	    width: 88%!important;
+	// 	}
+	// }
+	// footer{
+	// 	.x-container.width {
+	// 	    width: 88%!important;
+	// 	}
+	// }
+	// .x-container.width {
+	//     width: 100%!important;
+	// }
+	.x-btn-navbar {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+	.e6-11.x-container, .e6-33.x-container {
+	    margin: 0.5em auto 0.5em auto!important;
+	    padding: 0 0 0 0!important;
+	}
+	body.home{
+		h2{
+			font-size:2em;
+			margin-bottom: 1.0em;
+		}
+	}
+	.e6-15.x-line, .e6-37.x-line {
+	    height: 0!important;
+	}
+	.gp_dk_row h3 {
+	    font-size: 2.5em;
+	    line-height: 1;
+	    text-align: center;
+	}
+	.cta-content {
+	    margin-top: 2.0em;
+	    margin-left:auto;
+	    margin-right:auto;
+	    margin-bottom:2.0em!important;;
+	    display: block!important;
+	    text-align: center;
+	    width:88%;
+	}
+	.e6-35.x-text {
+	    padding: 0!important;
+	}
+	.gp_light_row h3 {
+	    color: #f6f1ed !important;
+	    font-size: 2.5em;
+	    line-height: 1;
+	    text-align: center;
+	}
+	.x-colophon.top .x-column .widget:first-child {
+	    margin-top: 1em;
+	}
+	.home_grow{
+		img{
+			margin-bottom: 1.0em
+		}
+	}
+	footer #media_image-2 img {
+	    width: 100%;
+	    height: auto;
+	    float: none;
+
+	}
+	h1.interior-header{
+		margin-top: 65px;
+		font-size:1.75em;
+	}
+	.model_row h1{
+		font-size: 1.75em!important;
+	}
+	.model_description_row .model_descript_short {
+	    display: block;
+	    width:100%;
+	    justify-content: normal;
+	    span{
+	    	display: block;
+	    	width:100%;
+	    }
+	}
+	.overview_copy_row h2 {
+	    color: #999999;
+	    font-size: 1.5em;
+	    margin-bottom: 1.5em;
+	}
+	.overview_copy_row ul{
+		margin: 0;
+	}
+	.secondary_row .secondary_txt_col {
+	    vertical-align: middle !important;
+	    padding: 0.5em;
+	}
+	.secondary_row .secondary_txt_col p {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 2.25em!important;
+	}
+	.lt_row h2{
+		font-size: 1.75em;
+		margin-bottom: 0.5em;
+		text-align: center;
+		width:100%;
+	}
+	.dk_row h2{
+		font-size: 1.75em;
+		margin-bottom: 0.5em;
+		text-align: center;
+		width:100%;
+	}
+}
